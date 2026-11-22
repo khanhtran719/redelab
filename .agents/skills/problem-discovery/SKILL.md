@@ -1,33 +1,38 @@
 ---
 name: problem-discovery
-description: Discover customer problems, jobs-to-be-done, workflow friction and workarounds for software opportunity research. Use before proposing solutions or to examine a demand hypothesis; not for implementation requirements.
+description: Discover evidence-aware customer problems, jobs-to-be-done, behavioral friction and workarounds before choosing software solutions.
 ---
 
-# Problem discovery
+# Problem Discovery
 
-## Purpose and inputs
+## Trigger and purpose
 
-Find a customer problem worth investigating. Inputs: target segment/job or broad problem space, geography, constraints, authorized observations or sources, and the research question. If absent, disclose a bounded exploratory assumption.
+Use for DISCOVER, demand questions and user-journey reality checks; not a substitute for interviews or product requirements.
+
+## Inputs
+
+Target actor/job or bounded problem space, market/recency, available observations, research budget, decision question.
 
 ## Procedure
 
-1. Describe actor, trigger, desired outcome, workflow, frequency, cost/consequence and current workaround. Separate user, buyer and beneficiary.
-2. Look for observed behavior and unmet needs using authorized customer material or credible discussions. Record sample/context limits; distinguish behavior from stated preference and vendor claims.
-3. Compare segments and contrary explanations. Do not lead research toward a preferred concept. State what evidence would refute severity or demand.
-4. Return the strongest supported problems and unresolved questions; propose non-leading observation/interview questions or a learning method without contacting anyone.
+1. Profile the actor, triggering context, desired job, existing workflow, workaround, repeated cost and consequence.
+2. Classify observations as OBSERVED_BEHAVIOR, SELF_REPORTED_BEHAVIOR, STATED_PREFERENCE or UNVALIDATED_ASSUMPTION; do not confuse these with VERIFIED/INFERENCE/HYPOTHESIS/UNKNOWN.
+3. Build a Problem Evidence Profile with frequency/severity evidence, sample limitations, segment, counterexamples and credible non-product explanations.
+4. Compare baseline alternatives and ask whether solving the pain requires a new app at all.
+5. State the decision-changing unknown and propose a non-leading observation/interview question; never contact users without authorization.
 
-## Expected outputs
+## Required output
 
-Problem statements, segment/JTBD map, existing solutions/workarounds, evidence and counterevidence, uncertainty/confidence, unmet needs and a proposed next research step. Record independent findings before reading other agents' solutions when assigned Round 1.
+Segment/JTBD summary; evidence profile per consequential problem; workaround and contradiction map; confidence; smallest proposed learning step.
 
-## Evidence requirements
+## Evidence and uncertainty
 
-Apply [evidence policy](../../../protocols/evidence-policy.md): trace material claims to dated sources, label VERIFIED/INFERENCE/HYPOTHESIS/UNKNOWN and distinguish actual customer evidence from agent assumptions. Never invent an interview or quantify pain without a basis.
+Apply [evidence policy](../../../protocols/evidence-policy.md). Classify material empirical claims VERIFIED / INFERENCE / HYPOTHESIS / UNKNOWN; label other behavioral or technical verification dimensions separately. Cite claim/source IDs and dates where material. Use the compact [finding and assignment contract](../../../protocols/agent-contracts.md) when invoked by a council; do not replace actual reasoning with checkboxes.
 
 ## Failure conditions
 
-No accessible customer evidence, unrepresentative sample, vague segment or solution-led problem framing: return a bounded gap statement, not validated demand. Contradictory findings remain visible.
+No actual behavioral source, narrow/unrepresentative sample, absent outcome cost, or a solution-first premise: mark bounded gaps, do not call demand verified.
 
-## Boundaries
+## Authorization and collaboration
 
-Research advice only. No product code, prototype, external outreach or launched experiment. Founder decisions remain human; SELECT does not authorize development. For a council assignment, return findings to the CIO and follow [debate rules](../../../protocols/debate-rules.md) only when critique is requested.
+Research and advisory only. No outreach, product code or implemented experiment. For authorized PRODUCT_DEFINITION support user journeys, while BA owns normative rules. Follow [debate rules](../../../protocols/debate-rules.md) when assigned.

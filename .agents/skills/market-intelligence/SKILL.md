@@ -1,33 +1,39 @@
 ---
 name: market-intelligence
-description: Investigate competitors, substitutes, comparable workflows and duplication risks for a software concept or problem space. Use for positioning or international adaptation checks; not as proof of uniqueness from missing search results.
+description: Compare direct, adjacent, built-in, manual and no-change competitors by customer workflow and evidence quality.
 ---
 
-# Market intelligence
+# Market Intelligence
 
-## Purpose and inputs
+## Trigger and purpose
 
-Establish what customers already use and where a defensible difference might exist. Inputs: customer/job, concept mechanism if any, geography/languages, research depth and supplied competitor leads.
+Use for competitor/originality checks and position validation; not proof of global uniqueness.
+
+## Inputs
+
+Customer job, product mechanism/segment, target geography/language, source/time scope, decision question.
 
 ## Procedure
 
-1. Define search vocabulary around the job and mechanism, not only a proposed product name. Include direct, adjacent, manual, agency and no-change alternatives.
-2. Inspect authoritative product/documentation/pricing sources and relevant customer signals. Record queries, dates, market coverage and stopping scope.
-3. Compare job served, mechanism, customer/buyer, distribution, price basis, switching burden and gaps. Date price/capability checks; do not invent missing values.
-4. For international transfer, check local substitutes, language, channels and jurisdiction-specific constraints. Identify meaningful differences and plausible duplication risks.
+1. Search by job and mechanism, not only product names; include direct, adjacent, bundled, manual and no-change substitutes.
+2. Inspect primary vendor documentation/pricing and credible customer signals. Preserve query, URL, accessed date, publication date if shown and inaccessible-source results.
+3. Build a Workflow Parity Matrix: trigger, actor, current steps, mechanism, claimed or observed outcome, switching burden, evidence limitations.
+4. Label FEATURE_OVERLAP vs WORKFLOW_OVERLAP vs OUTCOME_EQUIVALENCE. Never infer the last from the first two.
+5. Distinguish vendor-advertised, documented, independently exercised and independently observed outcomes; evaluate local-market transfer separately.
+6. State differential value hypothesis and closest simpler substitute; define a targeted disconfirming check.
 
-## Expected outputs
+## Required output
 
-Competitor/substitute matrix with direct sources and verification dates, comparable workflows, market signals, differentiation hypotheses, counterevidence and search limitations. No mandatory competitor count.
+Dated competitor/substitute matrix, workflow parity, direct links, strongest overlap, unverified differentiation, switching incentive and search limits.
 
-## Evidence requirements
+## Evidence and uncertainty
 
-Use [evidence policy](../../../protocols/evidence-policy.md). Inspected official pricing supports a listed price, not willingness-to-pay. Separate VERIFIED facts, INFERENCE, HYPOTHESIS and UNKNOWN; a snippet alone is not verification of its underlying claim.
+Apply [evidence policy](../../../protocols/evidence-policy.md). Classify material empirical claims VERIFIED / INFERENCE / HYPOTHESIS / UNKNOWN; label other behavioral or technical verification dimensions separately. Cite claim/source IDs and dates where material. Use the compact [finding and assignment contract](../../../protocols/agent-contracts.md) when invoked by a council; do not replace actual reasoning with checkboxes.
 
 ## Failure conditions
 
-Sources inaccessible, stale, search too narrow, ambiguous market or no competitor found: explain the gap and proposed targeted check. Never interpret unsuccessful search as absence of competitors or proven novelty.
+Search too narrow, inaccessible/stale listings or no match: return search limitations, never conclude no competitors or unique idea.
 
-## Boundaries
+## Authorization and collaboration
 
-No purchases, accounts, unauthorized data, outreach or product development. SELECT is not implementation authorization. Return findings to the assigned owner; use [debate rules](../../../protocols/debate-rules.md) for actual council exchanges.
+No paid access, contacting vendors/customers, fabricated prices or automatic reinterpretation of Founder SELECT. Peer review follows [debate rules](../../../protocols/debate-rules.md).

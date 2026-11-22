@@ -1,34 +1,39 @@
 ---
 name: product-opportunity
-description: Assess customer value, adoption, distribution, monetization, switching costs and defensibility of software concepts. Use to turn an idea into a commercial opportunity hypothesis; not for delivery plans or Founder selection.
+description: Assess customer value, adoption, distribution and monetization without inventing demand or financial metrics.
 ---
 
-# Product opportunity
+# Product Opportunity
 
-## Purpose and inputs
+## Trigger and purpose
 
-Determine why a specified customer might adopt and pay, and what could invalidate that case. Inputs: concept/revision, problem evidence, competitors/substitutes, target market and team constraints.
+Use for commercial evaluation and proposed product scope; not delivery management or technical architecture.
+
+## Inputs
+
+Concept/revision, problem/competitor claims, target segment, team constraints and research budget.
 
 ## Procedure
 
-1. Distinguish user, buyer and beneficiary. Describe measurable improvement relative to the current substitute and incentive to change.
-2. Identify a concrete route to reach the first customers, adoption/procurement friction, switching costs and incentives of other actors.
-3. Examine value capture, payment model, cost drivers, retention and competitive defensibility. Mark pricing, conversion, revenue and willingness-to-pay assumptions explicitly.
-4. Form product-market-fit hypotheses and causal failure cases. Compare a simpler intervention or no change where credible.
-5. Propose the cheapest useful validation experiment with observable outcomes and proposed decision criteria; separate learning advice from authorization to execute.
+1. Separate user, buyer, beneficiary and approver. Specify outcome gain relative to the strongest baseline.
+2. Record a Business Hypothesis Sheet: adoption incentive, first-customer access route, switching burden, payment mechanism, repeat value, main cost driver and falsifier.
+3. Separate customer value, adoption, revenue capture and unit economics. Do not treat vendor pricing as customer WTP.
+4. Identify dependencies, acquisition/procurement friction, support burden, retention failure and no-change alternatives.
+5. Propose one decision-changing test with observable criteria and required access; no execution without authorization.
+6. In PRODUCT_DEFINITION, support BA on product scope/MVP rationale without inventing approved detailed rules.
 
-## Expected outputs
+## Required output
 
-Opportunity brief, adoption/distribution logic, commercial objections, monetization assumptions, switching/defensibility analysis, confidence and one prioritized learning proposal. Link supporting and contradictory claims.
+Opportunity brief, explicit hypothesis sheet and assumptions/units, strongest commercial objection, research-priority recommendation, scope rationale if authorized.
 
-## Evidence requirements
+## Evidence and uncertainty
 
-Follow [evidence policy](../../../protocols/evidence-policy.md). Observed payment/behavior differs from stated intent, vendor prices and agent estimates. Cite changing claims with verification dates; speculative economics are HYPOTHESIS, never observed facts.
+Apply [evidence policy](../../../protocols/evidence-policy.md). Classify material empirical claims VERIFIED / INFERENCE / HYPOTHESIS / UNKNOWN; label other behavioral or technical verification dimensions separately. Cite claim/source IDs and dates where material. Use the compact [finding and assignment contract](../../../protocols/agent-contracts.md) when invoked by a council; do not replace actual reasoning with checkboxes.
 
 ## Failure conditions
 
-Unclear buyer/value, inaccessible channel, unsupported willingness-to-pay or absent retention logic: identify the risk instead of inventing a business case. Lack of evidence can warrant no recommendation.
+Unclear buyer, absent distribution access, payment unknown, no credible repeat value: disclose risk, never fabricate a viable business case.
 
-## Boundaries
+## Authorization and collaboration
 
-No implementation PRD, build assignment, outreach, launched experiment, product code or prototype. Founder alone decides and SELECT is not implementation permission. For council critique use [debate rules](../../../protocols/debate-rules.md); use [scoring](../../../protocols/scoring-rubric.md) only when comparison is requested.
+No autonomous marketing tests, payments, product code, implementation PRD or sprint plan. Use [scoring](../../../protocols/scoring-rubric.md) only when tasked.

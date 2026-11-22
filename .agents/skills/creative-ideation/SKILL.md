@@ -1,34 +1,39 @@
 ---
 name: creative-ideation
-description: Generate differentiated software concepts by exploring distinct workflow mechanisms with first principles, analogy and structured invention. Use for opportunity discovery or reframing; not for coding, prototypes or superficial feature variants.
+description: Generate distinct mechanisms, not cosmetic feature variants, while preserving falsifiable exploratory hypotheses.
 ---
 
-# Creative ideation
+# Creative Ideation
 
-## Purpose and inputs
+## Trigger and purpose
 
-Create varied mechanisms that could improve a real customer outcome. Inputs: problem space/JTBD, constraints, target customer and available facts. For independent exploration, exclude other agents' candidate solutions; disclose contaminated context.
+Use for independent ideation, cross-industry reframing or simplification within an authorized selected direction.
+
+## Inputs
+
+Job/problem space, constraints, actor, available evidence and independence boundaries; do not include other proposed solutions in a fresh R1.
 
 ## Procedure
 
-1. State desired outcome and the constraints that genuinely bind. Separate fundamental needs from incumbent product conventions.
-2. Apply a useful mix of first principles; SCAMPER (substitute/combine/adapt/modify/put to another use/eliminate/reverse); analogical innovation; cross-industry transfer; constraint-driven innovation; problem inversion; JTBD reframing.
-3. Vary how work happens: eliminate a step, shift its timing, move verification, alter coordination, reuse an artifact or change who does the job. A changed feature list alone is not a new mechanism.
-4. Preserve independent initial directions, then incorporate real customer/market findings. Aim for 5–8 distinct concepts in broad generation when justified; fewer, including zero, is acceptable.
-5. Describe assumptions, failure conditions and an inexpensive falsifiable learning step. Keep unusual exploratory concepts visible without claiming commercial validation.
+1. Separate the fundamental desired outcome from conventions of existing products.
+2. Explore first principles, inversion, analogy, constraints or SCAMPER selectively; vary who acts, when a step happens, what is verified and whether a step disappears.
+3. For each idea show BEFORE→AFTER mechanism, customer job, entry trigger, outcome metric and strongest existing substitute.
+4. Audit diversity across actors, triggers, workflow mechanisms and value, merging cosmetic variants.
+5. Treat originality as a hypothesis, list critical failure conditions and cheapest falsifiable research step.
+6. After real critique classify disposition REVISE / RESEARCH_HYPOTHESIS / WITHDRAW_PRODUCT_PROPOSAL, without changing Founder lifecycle status.
 
-## Expected outputs
+## Required output
 
-Concept catalog: customer/job, problem/current workaround, mechanism, measurable value proposition, differentiation hypothesis, method used, critical assumptions and proposed validation. Identify variants and revisions to avoid duplicates.
+Concept catalog with mechanism comparison, diversity result, source-backed assumptions, counterevidence, revision and disposition.
 
-## Evidence requirements
+## Evidence and uncertainty
 
-Use [evidence policy](../../../protocols/evidence-policy.md). New mechanisms are HYPOTHESIS until supported. Originality is not proven by invention or unsuccessful competitor search. Cite any empirical premise and distinguish it from analogy.
+Apply [evidence policy](../../../protocols/evidence-policy.md). Classify material empirical claims VERIFIED / INFERENCE / HYPOTHESIS / UNKNOWN; label other behavioral or technical verification dimensions separately. Cite claim/source IDs and dates where material. Use the compact [finding and assignment contract](../../../protocols/agent-contracts.md) when invoked by a council; do not replace actual reasoning with checkboxes.
 
 ## Failure conditions
 
-Feature variants presented as independent ideas, unsupported novelty, contaminated independent context or a generic AI wrapper without a customer mechanism: revise or state the limitation. Do not manufacture demand to rescue a favorite idea.
+Duplicated mechanisms, contaminated initial independence or no falsifier: disclose, revise or stop instead of manufacturing novelty or demand.
 
-## Boundaries
+## Authorization and collaboration
 
-Do not default to chatbots, dashboards or generic SaaS. No code, prototype, architecture or deployment work. Only the Founder selects; SELECT is not development permission. For assigned peer critique, follow [debate rules](../../../protocols/debate-rules.md) and record genuine assessment changes.
+No code, prototype or architecture. Founder selects; no automatic implementation. Preserve original R1; follow [debate rules](../../../protocols/debate-rules.md).
