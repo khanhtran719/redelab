@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-22T11:00:23.506856+07:00",
+  "state": "PUBLISHED",
+  "same_session": "SES-20261121-01",
+  "selected_idea": "IDEA-0014",
+  "human_decision": "DEC-0001 preserved",
+  "blueprint": "0.2 PROPOSED / READY FOR FOUNDER REVIEW",
+  "before_hashes": {
+    "portfolio/decision-log.md": "8154139eae2e9444315b6e02869bfb26c13db57192c5067b6379e56135954cf6",
+    "portfolio/idea-backlog.md": "d9bb3bb1af262cb7377e77667548562c58bddf4789841726e629b6aa24ffaa11",
+    "sessions/README.md": "12647fb9db4e41995c5f27441acc579bde404d182a7bf9d99a13b6020104ddcc",
+    "sessions/2026-11-21-01-fokus-time.md": "5fade1248ba095d05f533601ac03ae961c661907de7e714269862ff3cf005306"
+  },
+  "after_hashes": {
+    "portfolio/decision-log.md": "8154139eae2e9444315b6e02869bfb26c13db57192c5067b6379e56135954cf6",
+    "portfolio/idea-backlog.md": "9620f8f2670861650b4b6c668cd808b96948d12231a0e6aa5b7ea5288a4afe99",
+    "sessions/README.md": "ad2f4bd3d4fbe6d59db4f6ecd3029d55a713989e1c2bbcf9ad63721750288cea",
+    "sessions/2026-11-21-01-fokus-time.md": "d3a7fe94c3ca8f336c4e208e3d84c65a85471f444dd7876128133b57dcb00a64"
+  },
+  "decision_log_unchanged": true,
+  "implementation_authorized": false,
+  "only_own_lock_released": true
+}

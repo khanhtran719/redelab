@@ -1,0 +1,269 @@
+{
+  "session": "SES-20261120-03",
+  "verifiedAt": "2026-11-20T15:40:21.360106+07:00",
+  "scope": "CIO documentation self-check; not independent source reproduction, product tests or commercial validation",
+  "checks": [
+    {
+      "check": "JSON parsing",
+      "status": "PASS",
+      "detail": 24
+    },
+    {
+      "check": "Weights",
+      "status": "PASS",
+      "detail": "9 criteria x 4 candidates; weights = 100"
+    },
+    {
+      "check": "Source/claim IDs unique",
+      "status": "PASS",
+      "detail": "14 claims and 17 sources"
+    },
+    {
+      "check": "Claim sources exist",
+      "status": "PASS",
+      "detail": "No dangling source reference"
+    },
+    {
+      "check": "ChangeReceipt missingness",
+      "status": "PASS",
+      "detail": {
+        "assessed": 55,
+        "coverage": 25
+      }
+    },
+    {
+      "check": "ChangeReceipt mandatory unknowns",
+      "status": "PASS",
+      "detail": "No imputed scores or renormalization"
+    },
+    {
+      "check": "ChangeReceipt provenance",
+      "status": "PASS",
+      "detail": "Every criterion has rationale, confidence and dissent"
+    },
+    {
+      "check": "ChangeReceipt values",
+      "status": "PASS",
+      "detail": "Integer 1–10 or UNKNOWN"
+    },
+    {
+      "check": "ClassRelay missingness",
+      "status": "PASS",
+      "detail": {
+        "assessed": 70,
+        "coverage": 25
+      }
+    },
+    {
+      "check": "ClassRelay mandatory unknowns",
+      "status": "PASS",
+      "detail": "No imputed scores or renormalization"
+    },
+    {
+      "check": "ClassRelay provenance",
+      "status": "PASS",
+      "detail": "Every criterion has rationale, confidence and dissent"
+    },
+    {
+      "check": "ClassRelay values",
+      "status": "PASS",
+      "detail": "Integer 1–10 or UNKNOWN"
+    },
+    {
+      "check": "PartRoute missingness",
+      "status": "PASS",
+      "detail": {
+        "assessed": 55,
+        "coverage": 25
+      }
+    },
+    {
+      "check": "PartRoute mandatory unknowns",
+      "status": "PASS",
+      "detail": "No imputed scores or renormalization"
+    },
+    {
+      "check": "PartRoute provenance",
+      "status": "PASS",
+      "detail": "Every criterion has rationale, confidence and dissent"
+    },
+    {
+      "check": "PartRoute values",
+      "status": "PASS",
+      "detail": "Integer 1–10 or UNKNOWN"
+    },
+    {
+      "check": "GuideExpiry missingness",
+      "status": "PASS",
+      "detail": {
+        "assessed": 70,
+        "coverage": 60
+      }
+    },
+    {
+      "check": "GuideExpiry mandatory unknowns",
+      "status": "PASS",
+      "detail": "No imputed scores or renormalization"
+    },
+    {
+      "check": "GuideExpiry provenance",
+      "status": "PASS",
+      "detail": "Every criterion has rationale, confidence and dissent"
+    },
+    {
+      "check": "GuideExpiry values",
+      "status": "PASS",
+      "detail": "Integer 1–10 or UNKNOWN"
+    },
+    {
+      "check": "Research ceilings",
+      "status": "PASS",
+      "detail": "No new queries after handoff"
+    },
+    {
+      "check": "Eight completed debate cycles",
+      "status": "PASS",
+      "detail": "4 peer + 4 Red Team"
+    },
+    {
+      "check": "EX-P-01 real distinct agents",
+      "status": "PASS",
+      "detail": [
+        "839684bc-ef88-4b3e-a8c7-2a31a884179d",
+        "ccf1c4f3-c629-414d-9ca7-ce7a035e4643",
+        "2efbea3d-451c-41d1-b982-3a980c5b2342"
+      ]
+    },
+    {
+      "check": "EX-R-01 real distinct agents",
+      "status": "PASS",
+      "detail": [
+        "4c211ab5-572d-4b74-b21c-a8eb10e9b442",
+        "9f68563d-0fbe-49b9-9f2b-57c75dd3bc91"
+      ]
+    },
+    {
+      "check": "EX-P-03 real distinct agents",
+      "status": "PASS",
+      "detail": [
+        "839684bc-ef88-4b3e-a8c7-2a31a884179d",
+        "ccf1c4f3-c629-414d-9ca7-ce7a035e4643",
+        "2efbea3d-451c-41d1-b982-3a980c5b2342"
+      ]
+    },
+    {
+      "check": "EX-R-03 real distinct agents",
+      "status": "PASS",
+      "detail": [
+        "4c211ab5-572d-4b74-b21c-a8eb10e9b442",
+        "9f68563d-0fbe-49b9-9f2b-57c75dd3bc91"
+      ]
+    },
+    {
+      "check": "EX-P-04 real distinct agents",
+      "status": "PASS",
+      "detail": [
+        "839684bc-ef88-4b3e-a8c7-2a31a884179d",
+        "ccf1c4f3-c629-414d-9ca7-ce7a035e4643",
+        "2efbea3d-451c-41d1-b982-3a980c5b2342"
+      ]
+    },
+    {
+      "check": "EX-R-04 real distinct agents",
+      "status": "PASS",
+      "detail": [
+        "4c211ab5-572d-4b74-b21c-a8eb10e9b442",
+        "9f68563d-0fbe-49b9-9f2b-57c75dd3bc91"
+      ]
+    },
+    {
+      "check": "EX-P-05 real distinct agents",
+      "status": "PASS",
+      "detail": [
+        "839684bc-ef88-4b3e-a8c7-2a31a884179d",
+        "ccf1c4f3-c629-414d-9ca7-ce7a035e4643",
+        "2efbea3d-451c-41d1-b982-3a980c5b2342"
+      ]
+    },
+    {
+      "check": "EX-R-05 real distinct agents",
+      "status": "PASS",
+      "detail": [
+        "4c211ab5-572d-4b74-b21c-a8eb10e9b442",
+        "9f68563d-0fbe-49b9-9f2b-57c75dd3bc91"
+      ]
+    },
+    {
+      "check": "Exchange output and sent packets",
+      "status": "PASS",
+      "detail": "Every cited finding is present in the named real job output; prompts retained"
+    },
+    {
+      "check": "Worker cap and terminal status",
+      "status": "PASS",
+      "detail": {
+        "maxConcurrent": 3,
+        "completed": 8,
+        "failed": 3
+      }
+    },
+    {
+      "check": "Portfolio IDs",
+      "status": "PASS",
+      "detail": [
+        "IDEA-0001",
+        "IDEA-0002",
+        "IDEA-0003",
+        "IDEA-0004",
+        "IDEA-0005",
+        "IDEA-0006",
+        "IDEA-0007",
+        "IDEA-0008",
+        "IDEA-0009",
+        "IDEA-0010",
+        "IDEA-0011",
+        "IDEA-0012"
+      ]
+    },
+    {
+      "check": "Founder history unchanged",
+      "status": "PASS",
+      "detail": "No decision recorded"
+    },
+    {
+      "check": "Old records preserved",
+      "status": "PASS",
+      "detail": "8 original rows verified during publication; prior blocked status retained"
+    },
+    {
+      "check": "Lock released",
+      "status": "PASS",
+      "detail": "Owned lock released after verification"
+    },
+    {
+      "check": "Final status and placeholders",
+      "status": "PASS",
+      "detail": "No unresolved ID placeholders"
+    },
+    {
+      "check": "Local document links",
+      "status": "PASS",
+      "detail": {
+        "checked": 32,
+        "broken": []
+      }
+    },
+    {
+      "check": "Cited URLs have inspected-source receipts",
+      "status": "PASS",
+      "detail": 12
+    }
+  ],
+  "notRun": [
+    "Customer interviews/payment/experiment",
+    "Competitor execution/integrations",
+    "Jurisdiction-specific legal review",
+    "Product tests (no implementation)",
+    "Git diff (workspace is not a Git repository)"
+  ]
+}

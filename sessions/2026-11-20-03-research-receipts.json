@@ -1,0 +1,247 @@
+{
+  "session": "SES-20261120-03",
+  "queries": [
+    {
+      "id": "Q1",
+      "q": "construction change order app subcontractor approval before work digital change orders Clearstory",
+      "by": "CIO",
+      "purpose": "Candidate competitor screening",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "Q2",
+      "q": "music school lesson make up classes swap students scheduling Opus1 make up credits",
+      "by": "CIO",
+      "purpose": "Candidate competitor screening",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "Q3",
+      "q": "furniture returns replacement parts software customer self service claim parts",
+      "by": "CIO",
+      "purpose": "Candidate competitor screening",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "Q4",
+      "q": "documentation freshness code changes verification Swimm documentation auto sync",
+      "by": "CIO",
+      "purpose": "Candidate competitor screening",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "Q5",
+      "q": "garment manufacturing material substitution approval alternatives PLM approved materials",
+      "by": "CIO",
+      "purpose": "Diversity and duplication screen",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "Q6",
+      "q": "group travel planning dealbreakers constraints polls itinerary travel advisor software",
+      "by": "CIO",
+      "purpose": "Diversity and duplication screen",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "Q7",
+      "q": "survey data quality automated checks back checks fraud SurveyCTO quality",
+      "by": "CIO",
+      "purpose": "Diversity and duplication screen",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "Q8",
+      "q": "site:github.com documentation tutorial outdated version instructions not working issue",
+      "by": "CIO",
+      "purpose": "Direct developer problem evidence",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "Q9",
+      "q": "music lesson swap students software swap list my music staff",
+      "by": "CIO",
+      "purpose": "Targeted duplication/local substitute checks; R2 market failed 429",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "Q10",
+      "q": "\"phát sinh\" \"phê duyệt\" phần mềm nhà thầu nội thất",
+      "by": "CIO",
+      "purpose": "Targeted duplication/local substitute checks; R2 market failed 429",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "Q11",
+      "q": "\"Claimlane\" \"spare parts\" \"SKU\"",
+      "by": "CIO",
+      "purpose": "Targeted duplication/local substitute checks; R2 market failed 429",
+      "date": "2026-11-20"
+    },
+    {
+      "id": "Q12",
+      "q": "music lesson scheduling software \"swap\" \"students\"",
+      "by": "CIO",
+      "purpose": "Adversarial check of lesson-swap differentiation",
+      "date": "2026-11-20"
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-001",
+      "title": "Clearstory for Specialty Contractors",
+      "url": "https://www.clearstory.build/subcontractor-software",
+      "date": "UNKNOWN",
+      "access": "2026-11-20",
+      "type": "vendor product",
+      "finding": "Clearstory describes field photos/signatures, T&M-to-change-order conversion, shared log via link, estimates and review. This is substantial overlap with R1-I-01; vendor outcome percentages are NOT independently validated."
+    },
+    {
+      "id": "SRC-002",
+      "title": "Opus1 makeup lessons setup",
+      "url": "https://kb.opus1.io/how-do-i-set-up-makeup-lessons",
+      "date": "UNKNOWN",
+      "access": "2026-11-20",
+      "type": "official product documentation",
+      "finding": "Make-up credits, self-booking, same-teacher restrictions, cancellation-only availability and policies exist. Occupied-slot multi-party exchanges were not established by this limited inspected page."
+    },
+    {
+      "id": "SRC-003",
+      "title": "Omaha Conservatory 2025-26 FAQ",
+      "url": "https://omahacm.org/wp-content/uploads/2025/05/FAQs-about-the-2025-26-Academic-Year-1.pdf",
+      "date": "Academic year 2025-26; exact publication UNKNOWN",
+      "access": "2026-11-20",
+      "type": "real school policy",
+      "finding": "School explicitly encourages students to arrange swaps with others in same studio when missing lessons; alternatives include virtual lessons/absence. School uses Opus1 and admissions updates schedules. Supports real workaround, not willingness to buy another tool."
+    },
+    {
+      "id": "SRC-004",
+      "title": "Claimlane furniture returns and claims",
+      "url": "https://www.claimlane.com/industry/furniture",
+      "date": "UNKNOWN",
+      "access": "2026-11-20",
+      "type": "vendor product",
+      "finding": "Claimlane describes guided self-service gathering photos/serial numbers and handling spare parts, repairs, technicians, refunds and returns, including complex furniture. Major overlap with R1-I-04."
+    },
+    {
+      "id": "SRC-005",
+      "title": "Ashley FAQ",
+      "url": "https://www.ashleyfurniture.com/faq",
+      "date": "UNKNOWN",
+      "access": "2026-11-20",
+      "type": "retailer policy",
+      "finding": "Published policies include repair/replacement and return conditions by fulfillment/product context. Does not demonstrate adoption or pain of small SEA furniture sellers. No universal legal conclusion."
+    },
+    {
+      "id": "SRC-006",
+      "title": "How Swimm Auto-sync works",
+      "url": "https://swimm.io/blog/how-does-swimm-s-auto-sync-feature-work",
+      "date": "Exact publication UNKNOWN; search index says older article",
+      "access": "2026-11-20",
+      "type": "official technical vendor article",
+      "finding": "Swimm analyzes changed code and linked tokens/paths, automatically updates some snippets and asks humans to review others. Overlap with documentation invalidation mechanism; date/availability of exact current entitlement UNKNOWN."
+    },
+    {
+      "id": "SRC-007",
+      "title": "SurveyCTO collecting high-quality data",
+      "url": "https://docs.surveycto.com/04-monitoring-and-management/02-managing-for-quality/01.collecting-high-quality-data.html",
+      "date": "UNKNOWN",
+      "access": "2026-11-20",
+      "type": "official documentation",
+      "finding": "SurveyCTO documents automated checks, review/correction, automation of back-check workflow, random audits, exports and spreadsheet review. Major overlap with R1-I-07; not proof a targeted allocation niche cannot exist."
+    },
+    {
+      "id": "SRC-008",
+      "title": "Footwear BOM and material substitution approval",
+      "url": "https://vyloxstep.com/blogs/footwear-manufacturing-guides/footwear-bom-material-substitution",
+      "date": "2026-10-15 shown by page",
+      "access": "2026-11-20",
+      "type": "supplier marketing guide; low evidential strength",
+      "finding": "Guide says preapproved alternatives must specify identities, scope, conditions and evidence; otherwise human review/approval. Sector differs from garments; cannot validate acceptance of generic substitution rules."
+    },
+    {
+      "id": "SRC-009",
+      "title": "Claira planning guides",
+      "url": "https://getclaira.app/blog",
+      "date": "Various 2026 pages; index",
+      "access": "2026-11-20",
+      "type": "vendor content index",
+      "finding": "Index includes group trip voting, dates, budgets, dealbreakers and decision guides. Shows closely adjacent positioning for R1-I-06, not verified end-to-end product capability."
+    },
+    {
+      "id": "SRC-010",
+      "title": "Godot docs issue 10020",
+      "url": "https://github.com/godotengine/godot-docs/issues/10020",
+      "date": "2024-09-29 issue; 2025-10-09 comment",
+      "access": "2026-11-20",
+      "type": "public user issue",
+      "finding": "Issue reports tutorial referencing deprecated call and mismatched screenshots; a later commenter reports more than four hours spent. Self-report, one selected OSS context, no commercial buyer proof."
+    },
+    {
+      "id": "SRC-011",
+      "title": "Besu docs issue 1035",
+      "url": "https://github.com/besu-eth/besu-docs/issues/1035",
+      "date": "2022-05-12; closed issue",
+      "access": "2026-11-20",
+      "type": "public repository issue",
+      "finding": "Maintainer report describes config changes breaking a tutorial while URL still responds; proposes commit permalinks and scheduled checks. Evidence both of problem mechanism and cheap substitute, not current unmet demand."
+    },
+    {
+      "id": "SRC-012",
+      "title": "ABP AI Tutorial Validator",
+      "url": "https://github.com/abpframework/ai-tutorial-validator",
+      "date": "Exact publication UNKNOWN",
+      "access": "2026-11-20",
+      "type": "official open-source repository documentation",
+      "finding": "README describes executing public tutorials step by step, reporting failing steps and notifications. Strong direct substitute for a generic tutorial-testing product. Existence/described design verified; tool was not run."
+    },
+    {
+      "id": "SRC-013",
+      "title": "Claimlane Product Parts",
+      "url": "https://support.claimlane.com/en/articles/16772515-product-parts",
+      "date": "UNKNOWN",
+      "access": "2026-11-20",
+      "type": "official product help",
+      "finding": "Official help describes customer entering a part name, agent validation/enrichment with SKU/item identifiers, and optional product-to-parts catalogue relations/metafields. Example fields include itemNumber, ean, parentEan, sku, quantity. Direct overlap with part identification; integration not run."
+    },
+    {
+      "id": "SRC-014",
+      "title": "Faceworks phê duyệt phát sinh xây dựng",
+      "url": "https://faceworks.vn/chi-tiet/phan-mem-phe-duyet-phat-sinh-xay-dung-faceworks/",
+      "date": "UNKNOWN",
+      "access": "2026-11-20",
+      "type": "Vietnamese vendor product page",
+      "finding": "Vendor describes change requests, approval authority/value rules, links to budget/contract/acceptance and evidence. Vietnamese availability/marketing verified; usability, pricing, delivery and customer results not tested."
+    },
+    {
+      "id": "SRC-015",
+      "title": "Child music studio policy 2022-2023",
+      "url": "https://static1.squarespace.com/static/5f3af6bfe6594f637ab3a411/t/62df26e83d29e478cc6fc6c1/1658791656655/Studio%2BPolicy%2B-%2BChild%2B2022-2023.pdf",
+      "date": "2022-2023 policy",
+      "access": "2026-11-20",
+      "type": "older public teaching studio policy",
+      "finding": "Policy mentions My Music Staff calendar and arranging student swaps through the teacher for planned absence; old, selected example. Corroborates manual coordination workaround; not proof current unmet paid demand."
+    },
+    {
+      "id": "SRC-016",
+      "title": "Stundenplan-berechnen scheduling and lesson swap",
+      "url": "https://www.stundenplan-berechnen.de/en/home-en/",
+      "date": "UNKNOWN",
+      "access": "2026-11-20",
+      "type": "official vendor product page",
+      "finding": "Vendor broadly advertises students trading lesson slots with each other, but detailed bullets describe moving a booked lesson into a free offered slot. A later comparison again says peer swaps. Three-party occupied-slot cycles and actual behavior remain UNKNOWN; page wording is internally ambiguous. No product run."
+    },
+    {
+      "id": "SRC-017",
+      "title": "Prelude Studio parent resources",
+      "url": "https://www.preludestudio.com/student/parentresources",
+      "date": "UNKNOWN",
+      "access": "2026-11-20",
+      "type": "public school workflow",
+      "finding": "School publishes form -> swap list -> teacher/WhatsApp coordination for permanent or semi-permanent lesson changes, explicitly not weekly reschedules. Illustrates cheap workable substitute; does not validate weekly cycle demand. Irrelevant meeting credentials not retained or used."
+    }
+  ],
+  "successfulQueries": 12,
+  "inspectedExternalSources": 17,
+  "limits": "No further searches; up to3 source opens remaining. Initial web transport failure before results excluded from successful query count."
+}

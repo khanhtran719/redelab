@@ -1,0 +1,18 @@
+{
+  "version": "0.2",
+  "static_definitions": {
+    "FR": 9,
+    "BR": 11,
+    "AC": 40,
+    "NFR": 9,
+    "DEC": 13,
+    "OPEN": 8
+  },
+  "unmapped_canonical_requirement_rule_acceptance_refs": [],
+  "duplicate_definitions": [],
+  "must_requirements": 8,
+  "must_without_acceptance": [],
+  "normative_freeze_unchanged": true,
+  "application_tests": "NOT_RUN",
+  "readiness": "Pending independent final reassessment and final local-link validation"
+}

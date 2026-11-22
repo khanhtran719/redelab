@@ -1,0 +1,740 @@
+{
+  "session": "SES-20261120-03",
+  "author": "CIO",
+  "after": "R5",
+  "weightTotal": 100,
+  "method": "Unknowns not replaced or renormalized; coverage is weighted traceable evidence, not probability. Numeric hypotheses are scenarios.",
+  "candidates": [
+    {
+      "name": "ChangeReceipt",
+      "localIdeaId": "R1-I-01",
+      "revision": "r3",
+      "eligibility": "EXPLORATORY",
+      "total": "NOT RANKED",
+      "assessedWeight": 55,
+      "evidenceCoverage": 25,
+      "confidence": "LOW for commercial case",
+      "rows": [
+        {
+          "criterion": "severity",
+          "label": "Mức độ vấn đề",
+          "weight": 20,
+          "score": 6,
+          "class": "HYPOTHESIS",
+          "rationale": "Kịch bản phát sinh gây tranh chấp tiền có hậu quả vật chất; chưa có tần suất hay thiệt hại target.",
+          "references": [
+            "CLM-002",
+            "R1-I-01"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Kịch bản phán đoán, chưa có dữ liệu kiểm chứng.",
+          "opposingView": "Người mua không duyệt hoặc tranh chấp ngoài hồ sơ có thể là nguyên nhân chính.",
+          "plausibleInterval": [
+            4,
+            8
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "demand",
+          "label": "Bằng chứng nhu cầu",
+          "weight": 15,
+          "score": "UNKNOWN",
+          "class": "UNKNOWN",
+          "rationale": "Không có hồ sơ khách hàng, phỏng vấn hoặc hành vi mua trong phân khúc.",
+          "references": [
+            "CLM-002",
+            "CLM-011"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Thiếu bằng chứng để đánh giá, không phải điểm thấp.",
+          "opposingView": "Không có bằng chứng không phải bằng chứng không có nhu cầu.",
+          "plausibleInterval": null,
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "differentiation",
+          "label": "Khác biệt có ý nghĩa",
+          "weight": 15,
+          "score": 2,
+          "class": "INFERENCE",
+          "rationale": "Clearstory và Faceworks công bố luồng gần, chưa thấy lợi thế riêng.",
+          "references": [
+            "CLM-001",
+            "R5-I-01"
+          ],
+          "confidence": "MEDIUM",
+          "confidenceReason": "Nguồn/đánh giá truy vết được nhưng chưa xác lập hiệu quả của sản phẩm.",
+          "opposingView": "R4: có đối thủ không loại mọi cơ hội phục vụ phân khúc VN.",
+          "plausibleInterval": [
+            1,
+            4
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "distribution",
+          "label": "Khả thi phân phối",
+          "weight": 15,
+          "score": "UNKNOWN",
+          "class": "UNKNOWN",
+          "rationale": "Kênh kế toán ngành mới là gợi ý; không có quyền tiếp cận hay chuyển đổi thực.",
+          "references": [
+            "CLM-011",
+            "R2-P-01"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Thiếu bằng chứng để đánh giá, không phải điểm thấp.",
+          "opposingView": "Đối tác kế toán có thể tiếp cận được nhưng chưa kiểm tra.",
+          "plausibleInterval": null,
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "technical",
+          "label": "Khả thi kỹ thuật nhóm nhỏ",
+          "weight": 10,
+          "score": 8,
+          "class": "INFERENCE",
+          "rationale": "T2 đánh giá luồng tệp + xác nhận + đối chiếu hẹp khả thi; không cần API tại bước học.",
+          "references": [
+            "CLM-012",
+            "R2-T-01"
+          ],
+          "confidence": "MEDIUM",
+          "confidenceReason": "Nguồn/đánh giá truy vết được nhưng chưa xác lập hiệu quả của sản phẩm.",
+          "opposingView": "T2: luồng dễ làm không buộc được bên kia xác nhận; chưa chạy export hay quyền.",
+          "plausibleInterval": [
+            6,
+            10
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "monetization",
+          "label": "Khả năng thu tiền",
+          "weight": 10,
+          "score": "UNKNOWN",
+          "class": "UNKNOWN",
+          "rationale": "Phí tháng/doanh nghiệp là giả thuyết; chưa có buyer, ngân sách và kinh tế.",
+          "references": [
+            "CLM-011",
+            "R2-P-01"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Thiếu bằng chứng để đánh giá, không phải điểm thấp.",
+          "opposingView": "Có thể giữ khách qua dự án nối tiếp nhưng chưa quan sát.",
+          "plausibleInterval": null,
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "legal_data",
+          "label": "Pháp lý và dữ liệu",
+          "weight": 5,
+          "score": "UNKNOWN",
+          "class": "UNKNOWN",
+          "rationale": "Thẩm quyền duyệt, quyền dùng hồ sơ và yêu cầu thị trường chưa được xem xét đầy đủ.",
+          "references": [
+            "CLM-013",
+            "R2-T-01"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Thiếu bằng chứng để đánh giá, không phải điểm thấp.",
+          "opposingView": "Không có blocker được chứng minh cũng không phải thông qua.",
+          "plausibleInterval": null,
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "defensibility",
+          "label": "Lợi thế bền vững",
+          "weight": 5,
+          "score": 2,
+          "class": "HYPOTHESIS",
+          "rationale": "Kịch bản công cụ biểu mẫu dễ sao chép, chưa thấy tài sản tích lũy riêng.",
+          "references": [
+            "CLM-001",
+            "R2-P-01"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Kịch bản phán đoán, chưa có dữ liệu kiểm chứng.",
+          "opposingView": "Nghiệp vụ địa phương có thể giúp phục vụ tốt hơn, chưa chứng minh bền vững.",
+          "plausibleInterval": [
+            1,
+            4
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "lean_mvp",
+          "label": "Phù hợp MVP gọn",
+          "weight": 5,
+          "score": 8,
+          "class": "HYPOTHESIS",
+          "rationale": "Kịch bản một nghề với biểu mẫu có thể kiểm tra cơ chế nhỏ; chưa thử trên người dùng.",
+          "references": [
+            "CLM-012",
+            "R2-T-01"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Kịch bản phán đoán, chưa có dữ liệu kiểm chứng.",
+          "opposingView": "Biểu mẫu có thể đủ, không cần mua phần mềm mới.",
+          "plausibleInterval": [
+            6,
+            10
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        }
+      ],
+      "ideaId": "IDEA-0009"
+    },
+    {
+      "name": "ClassRelay",
+      "localIdeaId": "R1-I-03",
+      "revision": "r3",
+      "eligibility": "EXPLORATORY",
+      "total": "NOT RANKED",
+      "assessedWeight": 70,
+      "evidenceCoverage": 25,
+      "confidence": "LOW for commercial case",
+      "rows": [
+        {
+          "criterion": "severity",
+          "label": "Mức độ vấn đề",
+          "weight": 20,
+          "score": 5,
+          "class": "HYPOTHESIS",
+          "rationale": "Kịch bản đổi suất gây công điều phối đáng kể nhưng chưa đo tần suất và thiệt hại.",
+          "references": [
+            "CLM-005",
+            "R2-P-03"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Kịch bản phán đoán, chưa có dữ liệu kiểm chứng.",
+          "opposingView": "Chỗ trống và đổi đôi có thể giải gần hết ca với ít công.",
+          "plausibleInterval": [
+            3,
+            7
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "demand",
+          "label": "Bằng chứng nhu cầu",
+          "weight": 15,
+          "score": 4,
+          "class": "INFERENCE",
+          "rationale": "Chính sách trường cho thấy hành vi đổi suất; tín hiệu yếu về nhu cầu công cụ, chưa có WTP.",
+          "references": [
+            "CLM-003",
+            "R2-P-03"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Nguồn/đánh giá truy vết được nhưng chưa xác lập hiệu quả của sản phẩm.",
+          "opposingView": "Trường được chọn ngoài VN; Prelude là đổi dài hạn, không chứng minh hàng tuần.",
+          "plausibleInterval": [
+            2,
+            6
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "differentiation",
+          "label": "Khác biệt có ý nghĩa",
+          "weight": 15,
+          "score": 5,
+          "class": "HYPOTHESIS",
+          "rationale": "Kịch bản chu trình ba suất giải ca mà chỗ trống/cặp không giải; lợi ích và novelty chưa chứng minh.",
+          "references": [
+            "CLM-004",
+            "CLM-005",
+            "R5-I-03"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Kịch bản phán đoán, chưa có dữ liệu kiểm chứng.",
+          "opposingView": "Stundenplan-berechnen có quảng bá đổi suất; hỗ trợ ba bên UNKNOWN, không được xem là thiếu.",
+          "plausibleInterval": [
+            3,
+            7
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "distribution",
+          "label": "Khả thi phân phối",
+          "weight": 15,
+          "score": "UNKNOWN",
+          "class": "UNKNOWN",
+          "rationale": "Tư vấn vận hành trung tâm là kênh gợi ý, chưa chứng minh quyền tiếp cận và chi phí.",
+          "references": [
+            "CLM-011",
+            "R2-P-03"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Thiếu bằng chứng để đánh giá, không phải điểm thấp.",
+          "opposingView": "Có thể cần mua kèm hệ thống lịch hiện hữu, chưa rõ buyer độc lập.",
+          "plausibleInterval": null,
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "technical",
+          "label": "Khả thi kỹ thuật nhóm nhỏ",
+          "weight": 10,
+          "score": 6,
+          "class": "INFERENCE",
+          "rationale": "T2 có biên một trung tâm, CSV, kiểm tra tương thích và người cập nhật; rủi ro đồng thuận đáng kể.",
+          "references": [
+            "CLM-012",
+            "R2-T-03"
+          ],
+          "confidence": "MEDIUM",
+          "confidenceReason": "Nguồn/đánh giá truy vết được nhưng chưa xác lập hiệu quả của sản phẩm.",
+          "opposingView": "Lịch cũ, rút lui hoặc công liên hệ có thể xóa lợi ích.",
+          "plausibleInterval": [
+            4,
+            8
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "monetization",
+          "label": "Khả năng thu tiền",
+          "weight": 10,
+          "score": "UNKNOWN",
+          "class": "UNKNOWN",
+          "rationale": "Phí tháng/cơ sở chưa có bằng chứng chi trả hoặc lợi nhuận sau hỗ trợ.",
+          "references": [
+            "CLM-011",
+            "R2-P-03"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Thiếu bằng chứng để đánh giá, không phải điểm thấp.",
+          "opposingView": "Ít yêu cầu thường xuyên có thể khiến subscription không đáng mua.",
+          "plausibleInterval": null,
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "legal_data",
+          "label": "Pháp lý và dữ liệu",
+          "weight": 5,
+          "score": "UNKNOWN",
+          "class": "UNKNOWN",
+          "rationale": "Lịch học viên, quyền xử lý và đồng thuận phù hợp còn chưa xác minh.",
+          "references": [
+            "CLM-013",
+            "R2-T-03"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Thiếu bằng chứng để đánh giá, không phải điểm thấp.",
+          "opposingView": "CSV không giải quyết quyền dữ liệu hay sự đồng ý.",
+          "plausibleInterval": null,
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "defensibility",
+          "label": "Lợi thế bền vững",
+          "weight": 5,
+          "score": 3,
+          "class": "HYPOTHESIS",
+          "rationale": "Kịch bản nhà cung cấp lịch dễ bổ sung; chưa có dữ liệu/retention riêng được chứng minh.",
+          "references": [
+            "CLM-004",
+            "R2-P-03"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Kịch bản phán đoán, chưa có dữ liệu kiểm chứng.",
+          "opposingView": "Phụ thuộc lịch chính có thể giúp nhà cung cấp hiện hữu hơn sản phẩm mới.",
+          "plausibleInterval": [
+            1,
+            5
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "lean_mvp",
+          "label": "Phù hợp MVP gọn",
+          "weight": 5,
+          "score": 7,
+          "class": "HYPOTHESIS",
+          "rationale": "Kịch bản một trung tâm, chỗ trống/cặp trước và tối đa ba suất có thể học bằng thủ công.",
+          "references": [
+            "CLM-005",
+            "R5-I-03"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Kịch bản phán đoán, chưa có dữ liệu kiểm chứng.",
+          "opposingView": "R5: lịch khả thi chỉ là bước đầu; phải đo ca hoàn tất thật.",
+          "plausibleInterval": [
+            5,
+            9
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        }
+      ],
+      "ideaId": "IDEA-0010"
+    },
+    {
+      "name": "PartRoute",
+      "localIdeaId": "R1-I-04",
+      "revision": "r3",
+      "eligibility": "EXPLORATORY",
+      "total": "NOT RANKED",
+      "assessedWeight": 55,
+      "evidenceCoverage": 25,
+      "confidence": "LOW for commercial case",
+      "rows": [
+        {
+          "criterion": "severity",
+          "label": "Mức độ vấn đề",
+          "weight": 20,
+          "score": 6,
+          "class": "HYPOTHESIS",
+          "rationale": "Kịch bản hoàn đồ cồng kềnh và hỗ trợ lặp lại gây chi phí vật chất; chưa có số liệu target.",
+          "references": [
+            "CLM-007",
+            "R1-I-04"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Kịch bản phán đoán, chưa có dữ liệu kiểm chứng.",
+          "opposingView": "Sửa/thay có thể đã có trong quy trình hiện tại; không mặc định mọi ca trả nguyên kiện.",
+          "plausibleInterval": [
+            4,
+            8
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "demand",
+          "label": "Bằng chứng nhu cầu",
+          "weight": 15,
+          "score": "UNKNOWN",
+          "class": "UNKNOWN",
+          "rationale": "Không có dữ liệu nhà bán nhỏ, nhu cầu mua thêm hoặc tỷ lệ ca đủ điều kiện.",
+          "references": [
+            "CLM-007",
+            "CLM-011"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Thiếu bằng chứng để đánh giá, không phải điểm thấp.",
+          "opposingView": "P2 vẫn ưu tiên học kinh tế vì phép đo trực tiếp.",
+          "plausibleInterval": null,
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "differentiation",
+          "label": "Khác biệt có ý nghĩa",
+          "weight": 15,
+          "score": 2,
+          "class": "INFERENCE",
+          "rationale": "Claimlane công bố claims và định danh/catalog phụ tùng, trùng luận cứ chính.",
+          "references": [
+            "CLM-006",
+            "R5-I-04"
+          ],
+          "confidence": "MEDIUM",
+          "confidenceReason": "Nguồn/đánh giá truy vết được nhưng chưa xác lập hiệu quả của sản phẩm.",
+          "opposingView": "Có thể tồn tại phân khúc phục vụ kém nhưng chưa được chứng minh.",
+          "plausibleInterval": [
+            1,
+            4
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "distribution",
+          "label": "Khả thi phân phối",
+          "weight": 15,
+          "score": "UNKNOWN",
+          "class": "UNKNOWN",
+          "rationale": "Kênh nhà cung cấp phụ tùng chỉ là giả thuyết của P2.",
+          "references": [
+            "CLM-011",
+            "R2-P-04"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Thiếu bằng chứng để đánh giá, không phải điểm thấp.",
+          "opposingView": "Tiếp cận provider không đồng nghĩa người bán mua.",
+          "plausibleInterval": null,
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "technical",
+          "label": "Khả thi kỹ thuật nhóm nhỏ",
+          "weight": 10,
+          "score": 5,
+          "class": "INFERENCE",
+          "rationale": "T2 giới hạn chuyên gia, một dòng hàng và lựa chọn trả hàng; vẫn phụ thuộc tồn kho/giao/lắp.",
+          "references": [
+            "CLM-012",
+            "R2-T-04"
+          ],
+          "confidence": "MEDIUM",
+          "confidenceReason": "Nguồn/đánh giá truy vết được nhưng chưa xác lập hiệu quả của sản phẩm.",
+          "opposingView": "Đúng bộ phận không bảo đảm có hàng, giao/lắp thành công.",
+          "plausibleInterval": [
+            3,
+            7
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "monetization",
+          "label": "Khả năng thu tiền",
+          "weight": 10,
+          "score": "UNKNOWN",
+          "class": "UNKNOWN",
+          "rationale": "Phí tháng/cửa hàng chưa được thử, tiết kiệm phản thực chưa chứng minh giá trị thực.",
+          "references": [
+            "CLM-007",
+            "CLM-011"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Thiếu bằng chứng để đánh giá, không phải điểm thấp.",
+          "opposingView": "Checklist có thể đạt tương đương; tính cả hỗ trợ, giao lại và khách hàng bỏ công.",
+          "plausibleInterval": null,
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "legal_data",
+          "label": "Pháp lý và dữ liệu",
+          "weight": 5,
+          "score": "UNKNOWN",
+          "class": "UNKNOWN",
+          "rationale": "Quyền ảnh/hồ sơ, nghĩa vụ người bán và an toàn chưa kiểm tra theo thị trường.",
+          "references": [
+            "CLM-013",
+            "R2-T-04"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Thiếu bằng chứng để đánh giá, không phải điểm thấp.",
+          "opposingView": "Giữ đường trả hàng không tự chứng minh tuân thủ.",
+          "plausibleInterval": null,
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "defensibility",
+          "label": "Lợi thế bền vững",
+          "weight": 5,
+          "score": 2,
+          "class": "HYPOTHESIS",
+          "rationale": "Kịch bản checklist và phần mềm hậu mãi dễ thay thế; chưa có tài sản chẩn đoán độc quyền.",
+          "references": [
+            "CLM-006",
+            "R2-P-04"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Kịch bản phán đoán, chưa có dữ liệu kiểm chứng.",
+          "opposingView": "Dữ liệu ca có thể tích lũy nhưng chưa có quyền hay hiệu quả học.",
+          "plausibleInterval": [
+            1,
+            4
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "lean_mvp",
+          "label": "Phù hợp MVP gọn",
+          "weight": 5,
+          "score": 6,
+          "class": "HYPOTHESIS",
+          "rationale": "Kịch bản một dòng hàng làm phạm vi nhỏ hơn nhưng giá trị còn cần dịch vụ thực.",
+          "references": [
+            "CLM-012",
+            "R5-I-04"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Kịch bản phán đoán, chưa có dữ liệu kiểm chứng.",
+          "opposingView": "Giá trị có thể thuộc vận hành, không tạo nhu cầu phần mềm.",
+          "plausibleInterval": [
+            4,
+            8
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        }
+      ],
+      "ideaId": "IDEA-0011"
+    },
+    {
+      "name": "GuideExpiry",
+      "localIdeaId": "R1-I-05",
+      "revision": "r3",
+      "eligibility": "EXPLORATORY",
+      "total": "NOT RANKED",
+      "assessedWeight": 70,
+      "evidenceCoverage": 60,
+      "confidence": "LOW for commercial case",
+      "rows": [
+        {
+          "criterion": "severity",
+          "label": "Mức độ vấn đề",
+          "weight": 20,
+          "score": 5,
+          "class": "INFERENCE",
+          "rationale": "Hai issue cho thấy hướng dẫn hỏng và chi phí người dùng; mức 5 chỉ là suy luận vấn đề có hậu quả, chưa phổ quát.",
+          "references": [
+            "CLM-008",
+            "R2-P-05"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Nguồn/đánh giá truy vết được nhưng chưa xác lập hiệu quả của sản phẩm.",
+          "opposingView": "Hai OSS issue được chọn, một issue cũ đã đóng; không cho biết tần suất hoặc thiệt hại target.",
+          "plausibleInterval": [
+            3,
+            7
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "demand",
+          "label": "Bằng chứng nhu cầu",
+          "weight": 15,
+          "score": 4,
+          "class": "INFERENCE",
+          "rationale": "Có hành vi báo lỗi/tìm cách sửa; chưa có bằng chứng mua từ nhóm phần mềm nhỏ.",
+          "references": [
+            "CLM-008",
+            "R2-P-05"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Nguồn/đánh giá truy vết được nhưng chưa xác lập hiệu quả của sản phẩm.",
+          "opposingView": "Người báo lỗi không nhất thiết là người mua công cụ bảo trì.",
+          "plausibleInterval": [
+            2,
+            6
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "differentiation",
+          "label": "Khác biệt có ý nghĩa",
+          "weight": 15,
+          "score": 3,
+          "class": "INFERENCE",
+          "rationale": "Swimm, ABP và pinning/rà định kỳ chồng lấn đáng kể, phần UI/config chỉ là khoảng trống giả định.",
+          "references": [
+            "CLM-009",
+            "R4-R-05"
+          ],
+          "confidence": "MEDIUM",
+          "confidenceReason": "Nguồn/đánh giá truy vết được nhưng chưa xác lập hiệu quả của sản phẩm.",
+          "opposingView": "Chưa chạy đối chứng; quyền sử dụng Swimm hiện tại chưa xác minh.",
+          "plausibleInterval": [
+            1,
+            5
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "distribution",
+          "label": "Khả thi phân phối",
+          "weight": 15,
+          "score": "UNKNOWN",
+          "class": "UNKNOWN",
+          "rationale": "Cộng đồng tài liệu là kênh giả thuyết, chưa chứng minh tiếp cận buyer có ngân sách.",
+          "references": [
+            "CLM-011",
+            "R2-P-05"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Thiếu bằng chứng để đánh giá, không phải điểm thấp.",
+          "opposingView": "Cộng đồng có thể ưu tiên công cụ miễn phí và tự làm.",
+          "plausibleInterval": null,
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "technical",
+          "label": "Khả thi kỹ thuật nhóm nhỏ",
+          "weight": 10,
+          "score": 6,
+          "class": "INFERENCE",
+          "rationale": "T2 có biên liên kết thủ công/chủ tài liệu; phụ thuộc chưa biết phải chưa xác minh.",
+          "references": [
+            "CLM-012",
+            "R2-T-05"
+          ],
+          "confidence": "MEDIUM",
+          "confidenceReason": "Nguồn/đánh giá truy vết được nhưng chưa xác lập hiệu quả của sản phẩm.",
+          "opposingView": "Liên kết thiếu gây an tâm sai, liên kết rộng khiến rà gần toàn bộ.",
+          "plausibleInterval": [
+            4,
+            8
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "monetization",
+          "label": "Khả năng thu tiền",
+          "weight": 10,
+          "score": "UNKNOWN",
+          "class": "UNKNOWN",
+          "rationale": "Phí tháng/nhóm chưa đo WTP và tổng chi phí vận hành.",
+          "references": [
+            "CLM-011",
+            "R2-P-05"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Thiếu bằng chứng để đánh giá, không phải điểm thấp.",
+          "opposingView": "Công thiết lập và duy trì có thể vượt giá trị.",
+          "plausibleInterval": null,
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "legal_data",
+          "label": "Pháp lý và dữ liệu",
+          "weight": 5,
+          "score": "UNKNOWN",
+          "class": "UNKNOWN",
+          "rationale": "Quyền tài liệu/mã/môi trường, bảo mật và lưu giữ chưa xác minh.",
+          "references": [
+            "CLM-013",
+            "R2-T-05"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Thiếu bằng chứng để đánh giá, không phải điểm thấp.",
+          "opposingView": "Thử thủ công vẫn cần được cấp quyền.",
+          "plausibleInterval": null,
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "defensibility",
+          "label": "Lợi thế bền vững",
+          "weight": 5,
+          "score": 2,
+          "class": "HYPOTHESIS",
+          "rationale": "Kịch bản cơ chế dễ thay bằng checklist hoặc công cụ mở; chưa có retention/data advantage.",
+          "references": [
+            "CLM-009",
+            "R2-P-05"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Kịch bản phán đoán, chưa có dữ liệu kiểm chứng.",
+          "opposingView": "Bằng chứng theo lịch sử có thể giúp retention nhưng chưa kiểm chứng.",
+          "plausibleInterval": [
+            1,
+            4
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        },
+        {
+          "criterion": "lean_mvp",
+          "label": "Phù hợp MVP gọn",
+          "weight": 5,
+          "score": 7,
+          "class": "HYPOTHESIS",
+          "rationale": "Kịch bản nhóm hướng dẫn nhỏ và hai release cho phép học trước khi tích hợp rộng.",
+          "references": [
+            "CLM-010",
+            "R5-I-05"
+          ],
+          "confidence": "LOW",
+          "confidenceReason": "Kịch bản phán đoán, chưa có dữ liệu kiểm chứng.",
+          "opposingView": "R4: hai release không chứng minh độ tin cậy lâu dài.",
+          "plausibleInterval": [
+            5,
+            9
+          ],
+          "intervalMeaning": "Phạm vi phán đoán của CIO, không phải khoảng tin cậy thống kê."
+        }
+      ],
+      "ideaId": "IDEA-0012"
+    }
+  ]
+}

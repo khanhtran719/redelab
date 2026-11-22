@@ -1,0 +1,9 @@
+{
+  "session_id": "SES-20261121-01",
+  "backlog_rows": [
+    "| {{F1_ID}} | Fokus Time F1-N — nối lại việc trên điện thoại | Người đọc/viết phone-primary, rời chủ động; pain restart cụ thể chưa xác minh | Một lời bàn giao trước rời → bước tiếp khi trở lại; so same-prompt note tại task | HYPOTHESIS; CLM-008/015; NOT RANKED; proponent rút endorsement standalone app sau RT1; chưa có empirical failure | AWAITING_FOUNDER | NONE | [SES-20261121-01](../sessions/2026-11-21-01-fokus-time.md), [brief](../sessions/2026-11-21-01-fokus-time/08-top-proposals.md); tiền thân F-B trong SES-20261120-04 | 2026-11-21 |",
+    "| {{F3_ID}} | Fokus Time F3-N — tự kiểm tra phần đã học | Sinh viên có bài/rubric sẵn; gap so công cụ học hiện tại UNKNOWN | Chốt đích → làm → đối chiếu → ghi lỗ hổng; tách practice khỏi mobile increment | HYPOTHESIS; CLM-009/015/016/017; NOT RANKED; proponent rút app endorsement; Anki/RemNote tăng substitution concern | AWAITING_FOUNDER | NONE | [SES-20261121-01](../sessions/2026-11-21-01-fokus-time.md), [brief](../sessions/2026-11-21-01-fokus-time/08-top-proposals.md); tiền thân F-F trong SES-20261120-04 | 2026-11-21 |"
+  ],
+  "index_old": "[SES-20261121-01 — Fokus Time discovery & debate](2026-11-21-01-fokus-time.md): IN_PROGRESS; independent new council; preserves unfinished prior session.",
+  "index_new": "[SES-20261121-01 — Fokus Time discovery & debate](2026-11-21-01-fokus-time.md): **AWAITING_FOUNDER**; sáu chuyên gia gpt-6.1-sol, sáu hướng ban đầu, peer critique/reply và Red Team/rebuttal/final review thực; chín deliverables. Hai phương án khám phá {{F1_ID}}/{{F3_ID}} NOT RANKED; Inventor rút standalone-app endorsement, không có winner hoặc Founder decision. Giữ nguyên phiên cũ đang dở."
+}

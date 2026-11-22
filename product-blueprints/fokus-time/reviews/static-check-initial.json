@@ -1,0 +1,23 @@
+{
+  "version": "0.1",
+  "kind": "static_self_check_not_product_test",
+  "frozen_hashes_unchanged": true,
+  "definition_counts": {
+    "FR": 9,
+    "BR": 11,
+    "AC": 39,
+    "NFR": 9,
+    "DEC": 13,
+    "OPEN": 8
+  },
+  "duplicate_definitions": false,
+  "all_local_links_except_explicit_pending_audit_records": "PASS",
+  "pending_audit_records": [
+    "reviews/readiness-audit.md",
+    "reviews/review-record.md"
+  ],
+  "must_requirements": 8,
+  "must_without_acceptance": [],
+  "actual_product_tests": "NOT_RUN",
+  "canonical_reference_formatting": "Normalization of compact prose aliases scheduled after independent review; canonical definitions stable."
+}

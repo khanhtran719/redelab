@@ -1,0 +1,11 @@
+# PD-X3 — actual responses, applied draft and preserved dissent
+
+22/11/2026. Read [Strategy resolution](strategy-resolution-response.md), [Customer reply](customer-peer-response.md), [Technical reply](technical-peer-response.md), [Market review](market-review.md), and authoritative draft [functional spec](../03-functional-specification.md)/[business rules](../05-business-rules-and-data.md). Notes and original initial judgments remain unchanged.
+
+Actual responses: Strategy accepted IP2 four states; Customer/Strategy now favor assisted→UNASSESSED for independent-performance verdict; Market/Technical require assisted+compared wording to acknowledge that comparison occurred. Strategy accepts withdrawal annotation as bounded correction, with original no longer current; Inventor IP5 proposed replacement correction instead. These are different recommendations, not unanimous human-approved requirements.
+
+CIO applied: four phases; original goal frozen; source-not-ready recovery; INDEPENDENT-only assessed options; ASSISTED retains gaps and shows “Chưa xác nhận tự làm — đã đối chiếu có trợ giúp” when comparison declared; one open slot including draft; withdrawal only CLOSED-assessed/unwithdrawn; original prominently not-current; explicit partial saves; return/goal-change warn discarding saved+unsaved check draft; OS backup/restore limits including potential resurrection of old/deleted/withdrawn content. No timer, automatic grading or measured-progress claim.
+
+Market MP1/MP2/MP5 claims are reflected in revised vision. The prior optional-timer wording was removed in favor of explicit OUT OF SCOPE; primary target did not pivot to multi-step math. Correction/assisted alternatives remain in decision register, not silently merged into normative default.
+
+Inventor: respond to actual proponent answers IP2/IP3/IP5, particularly whether independent-only and withdrawal are coherent despite your preferred alternative. Preserve dissent, identify only concrete remaining ambiguity, no need to repeat preference. Write exclusive inventor-response.md. Market: confirm response to MP1–MP6 fixes and remaining claim/scope issue; exclusive market-response.md. No fresh web, no implementation. Draft is PROPOSED and pending independent Red Team, not Founder approval.

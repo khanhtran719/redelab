@@ -1,0 +1,75 @@
+{
+  "closeResult": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"id\":\"5756c7cf-a422-419a-a77c-4b274c8198b6\",\"name\":\"SES-20261120-03 · DISCOVER council\",\"status\":\"closed\",\"createdAt\":\"2026-11-20T08:12:10.208Z\"}"
+      }
+    ],
+    "isError": false
+  },
+  "confirmedSession": {
+    "id": "5756c7cf-a422-419a-a77c-4b274c8198b6",
+    "name": "SES-20261120-03 · DISCOVER council",
+    "status": "closed",
+    "createdAt": "2026-11-20T08:12:10.208Z"
+  },
+  "jobs": [
+    {
+      "id": "3d0e370a-7cc4-45aa-9be9-743cd0ad40f2",
+      "status": "completed",
+      "archived": true
+    },
+    {
+      "id": "3f414fb0-5a80-43d6-973a-b8e73e18457a",
+      "status": "completed",
+      "archived": true
+    },
+    {
+      "id": "58853777-9f36-42ec-9e78-ea2dd05a218f",
+      "status": "completed",
+      "archived": true
+    },
+    {
+      "id": "839684bc-ef88-4b3e-a8c7-2a31a884179d",
+      "status": "completed",
+      "archived": true
+    },
+    {
+      "id": "ccf1c4f3-c629-414d-9ca7-ce7a035e4643",
+      "status": "completed",
+      "archived": true
+    },
+    {
+      "id": "37ca4b41-efd4-47ba-a458-25626883cd6d",
+      "status": "failed",
+      "archived": true
+    },
+    {
+      "id": "132261d7-c1db-4555-9718-98250acf79d2",
+      "status": "failed",
+      "archived": true
+    },
+    {
+      "id": "830298b7-76f0-42e3-ab93-3c4120534140",
+      "status": "failed",
+      "archived": true
+    },
+    {
+      "id": "2efbea3d-451c-41d1-b982-3a980c5b2342",
+      "status": "completed",
+      "archived": true
+    },
+    {
+      "id": "4c211ab5-572d-4b74-b21c-a8eb10e9b442",
+      "status": "completed",
+      "archived": true
+    },
+    {
+      "id": "9f68563d-0fbe-49b9-9f2b-57c75dd3bc91",
+      "status": "completed",
+      "archived": true
+    }
+  ],
+  "checkedAt": "2026-11-20 08:40:40 UTC"
+}

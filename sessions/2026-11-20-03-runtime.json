@@ -1,0 +1,119 @@
+{
+  "session": "SES-20261120-03",
+  "mode": "DISCOVER",
+  "scope": "Broad software opportunity discovery; no implementation",
+  "startedAt": "2026-11-20T15:12:36+07:00",
+  "budget": {
+    "minutes": 30,
+    "searchQueries": 12,
+    "openedExternalSources": 20,
+    "maxConcepts": 8,
+    "peerCycles": 1,
+    "redTeamCycles": 1
+  },
+  "allocation": {
+    "initialCustomer": {
+      "queries": 3,
+      "sources": 4,
+      "actualQueries": 0,
+      "actualSources": 0
+    },
+    "initialMarket": {
+      "queries": 3,
+      "sources": 5,
+      "actualQueries": 0,
+      "actualSources": 0
+    },
+    "inventor": {
+      "queries": 0,
+      "sources": 0
+    },
+    "reallocated": "Final: CIO collected 12 successful queries/17 inspected sources. All workers performed zero external searches. Research stopped; unused source capacity not spent.",
+    "previousSnapshot": "All successful source collection by CIO; 11 queries/15 sources so far; one query and five sources reserved for adversarial checks."
+  },
+  "runtime": {
+    "ready": true,
+    "error": null,
+    "model": "gpt-6-astra",
+    "effort": "ultra",
+    "mode": "read-only",
+    "kind": "codex-app-server"
+  },
+  "hubSessionId": "5756c7cf-a422-419a-a77c-4b274c8198b6",
+  "configuredModel": "Project role TOMLs and .codex/config.toml inherit settings; no per-role model specified",
+  "capabilities": {
+    "hub_status": "exercised",
+    "session_open": "exercised",
+    "agent_spawn": "exercised; actual workers",
+    "agent_wait": "exercised",
+    "followup": "Not exposed. Genuine replacement workers received attributed prior findings and responded; identities preserved.",
+    "web": "web__run route unavailable; connected search_service exercised by CIO",
+    "workerFiles": "reported sandbox-exec failure",
+    "workerWeb": "not exposed according to R1 workers",
+    "nativeSpawn": "not exposed in callable inventory",
+    "session_close": "exercised and confirmed by hub_status"
+  },
+  "failures": [
+    {
+      "kind": "local documentation preparation",
+      "detail": "Two Python parse failures occurred before any side effects; corrected; no code/product changes."
+    },
+    {
+      "kind": "dispatch size",
+      "detail": "First R2 requests returned body_too_large; no workers created; compact relay then succeeded."
+    },
+    {
+      "kind": "worker failure",
+      "id": "37ca4b41-efd4-47ba-a458-25626883cd6d",
+      "detail": "429 Too Many Requests; no market critique output; not represented as completed."
+    },
+    {
+      "kind": "worker failure",
+      "id": "132261d7-c1db-4555-9718-98250acf79d2",
+      "detail": "429, no output; one sequential replacement attempted"
+    },
+    {
+      "kind": "worker failure",
+      "id": "830298b7-76f0-42e3-ab93-3c4120534140",
+      "detail": "429, no output; optional additional customer review not completed"
+    },
+    {
+      "kind": "handoff synthesis read commands",
+      "detail": "Two read-only Python commands had literal newline syntax errors; no side effects. A git status command found no Git repository; no diff claims made."
+    },
+    {
+      "kind": "publication preparation syntax",
+      "detail": "Initial publication script had a syntax error after successful lock mkdir and before writes. This chat immediately recorded its ownership, corrected the script, then published and released its own lock; no shared records changed before recovery."
+    }
+  ],
+  "skills": [
+    ".agents/skills/creative-ideation/SKILL.md",
+    ".agents/skills/product-opportunity/SKILL.md",
+    ".agents/skills/problem-discovery/SKILL.md",
+    ".agents/skills/feasibility-assessment/SKILL.md",
+    ".agents/skills/adversarial-review/SKILL.md",
+    ".agents/skills/market-intelligence/SKILL.md",
+    ".agents/skills/idea-evaluation/SKILL.md"
+  ],
+  "tokenCost": "UNKNOWN",
+  "actual": {
+    "successfulQueries": 12,
+    "failedQueryRequestsBeforeResults": 4,
+    "inspectedExternalSources": 17,
+    "concepts": 7,
+    "fullyDebatedConcepts": 4,
+    "retainedExploratoryDirections": 2,
+    "commerciallyRanked": 0,
+    "completedJobs": 8,
+    "failedJobs": 3,
+    "peerCycles": 4,
+    "redTeamCycles": 4,
+    "researchEndedAt": "2026-11-20T08:30:26.558Z",
+    "researchElapsedSeconds": 1069.642,
+    "budgetRestarted": false,
+    "stopReason": "Query ceiling and completed useful debate; no new source collection needed."
+  },
+  "sessionStatus": "AWAITING_FOUNDER",
+  "hubGroupStatus": "CLOSED",
+  "completionAt": "2026-11-20T15:40:41.832279+07:00"
+}

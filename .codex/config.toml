@@ -1,0 +1,5 @@
+# Project-local coordination only. Model, permissions and MCP remain inherited.
+# Six standalone roles are discovered from .codex/agents/*.toml.
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 3

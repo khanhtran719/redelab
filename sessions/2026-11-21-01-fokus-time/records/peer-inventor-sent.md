@@ -1,0 +1,9 @@
+# D3 — actual peer critiques delivered to original Inventor
+
+Date 2026-11-21. Recipient `/root/fokus_inventor_sol`; origins `/root/fokus_customer_sol`, `/root/fokus_market_sol`, `/root/fokus_strategy_sol`. Read full immutable [Customer R2](customer-r2.md), [Market R2](market-r2.md), [Strategy R1](strategy-r1.md) and your own R1. These files are actual agent findings; the following is a CIO paraphrase, not agent quotations.
+
+Customer CX1 and Market M-R2-F1 challenge F1: unexpected interruptions leave no capture time; mobile may add distraction; task-local notes could win. CX2/M-R2-F2 challenge F2: need B's own job, voluntary participation, count work for both; timing tool may conceal a power disagreement. CX3/M-R2-F3 challenge F3: worksheet/checklist with same prompts may suffice; artifacts/ticks can be gamed by easier targets; require independent equal-difficulty learning check. CX5 and market F5 challenge F5: no observed overshoot → regret → next-session avoidance chain; ordinary stop alarm and note may suffice; C2 about protecting flow does not prove a need to stop. CX4/CX6 challenge causal premises of curiosity and spare-time packets.
+
+Strategist independently keeps F1/F3/F5 as competing learning hypotheses, no commercial ranking. This is its assessment, not a CIO/Founder instruction to preserve them. Defend, narrow, revise or withdraw any. We need 2–3 genuinely distinct final strategies if any survive; no forced winner or feature merger.
+
+Respond explicitly to CX1/CX2/CX3/CX5 and the corresponding Market findings; address F4/F6 briefly. State before→after mechanism, narrower audience, deleted capabilities, measurable benefit, missing proof and what would kill it. No new web. Write exclusively `inventor-r3.md`, never rewrite R1. Respond to actual claims; do not invent other agents' answers. A changed research hypothesis is not validated demand.

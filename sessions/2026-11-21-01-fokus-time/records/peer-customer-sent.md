@@ -1,0 +1,7 @@
+# D1 — CIO relay to Customer Researcher
+
+Date: 2026-11-21. Origin: `/root/fokus_inventor_sol` R1; recipient: `/root/fokus_customer_sol`. This is a faithful excerpt and question packet, not a transcript invented for either agent. Tool delivery is recorded separately. Source: [inventor R1](inventor-r1.md), findings R1-inventor-01–06.
+
+Actual initial claims, paraphrased: F1 freelancer leaves state/next-action/blocker card before interrupting and uses it on return; F2 two people at home agree a reply window plus nonurgent queue/emergency path; F3 student predetermines a small learning artifact then compares result; F4 postpones curiosity in an inbox; F5 evening project sets enough-for-today and stop boundary; F6 prepares self-contained work packets for spare moments. All are HYPOTHESIS, not market findings.
+
+Customer Research → Inventor: Challenge F1, F2, F3 independently, and identify whether F4–F6 deserve survival. Does C1–C4 support the proposed user/problem, or just adjacent pain? What could show the mobile workflow worsens distraction? Name at least one concrete objection per F1–F3 with impact, missing evidence and falsifier; suggest narrower audience or simpler baseline. Cite actual named inventor and customer findings. State before/after assessment without forcing agreement. Write exclusive `customer-r2.md`; do not revise R1. No new web. Return questions for inventor, not its invented responses.

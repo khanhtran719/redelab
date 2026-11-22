@@ -1,0 +1,11 @@
+# PD-X4 — independent specification audit input
+
+22/11/2026. Frozen version0.1: eleven authoritative Markdown files in parent folder; exact contents+SHA256 retained in frozen-draft-v0.1.json. CIO does not mutate normative files during initial reviewer read. Selected direction is APPROVED by Founder; detailed behavior is PROPOSED. Review specification coherence/testability, not reselecting product or rerunning market discovery.
+
+Context: Customer/Strategy initial independent analyses; peer replies and CIO proposed resolution; independent simplification by Inventor and scope/claim check by Market; targeted Technical backup/persistence analysis. Actual notes are linked in peer-final-definition-packet.md. All model invocations gpt-6.1-sol. Important dissent: qualified-assisted verdict and replacement-result correction could be alternatives, but current proposed baseline is independent-only plus withdrawal. Do not equate agreement on wording with user validation.
+
+Read README,01–10 in full and actual peer replies as needed. Challenge missing cases, contradictions, state/UX mismatch, inadequate input/reference guard, assistance timing, partial save vs close, crash/retry/single slot, goal split, mistaken conclusion, current vs OS backup/deletion, accessibility, scope creep, AC traceability, approval boundaries and future handoff guessing. Numeric OS/performance targets remain OPEN, not invented. No code/product/device tests have run.
+
+For each actionable issue: issue ID, severity (blocking critical ambiguity vs nonblocking), exact affected document/FR/BR/UX/NFR/AC, originating claim/agent if known, causal scenario, rationale, correction/alternatives and observable acceptance. Give an independent READY FOR FOUNDER REVIEW / PARTIAL / BLOCKED recommendation with reasons; never Founder approval. Prefer consequential findings over volume. If no critical issue, say so without claiming empirical correctness.
+
+Exclusive output redteam-initial.md. No new web needed (source-refresh budget remains bounded), no code/prototype/mockup/assets/architecture/API/schema/install/outreach/Dev Studio activation. CIO will apply justified corrections and relay actual responsible-specialist response; final independent reassessment after that. Never manufacture responses or fixed status.

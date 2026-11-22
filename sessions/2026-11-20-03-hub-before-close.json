@@ -1,0 +1,156 @@
+{
+  "session": {
+    "id": "5756c7cf-a422-419a-a77c-4b274c8198b6",
+    "name": "SES-20261120-03 · DISCOVER council",
+    "status": "open",
+    "createdAt": "2026-11-20T08:12:10.208Z"
+  },
+  "jobs": [
+    {
+      "id": "3d0e370a-7cc4-45aa-9be9-743cd0ad40f2",
+      "sessionId": "5756c7cf-a422-419a-a77c-4b274c8198b6",
+      "title": "R1 customer · independent problems",
+      "status": "completed",
+      "createdAt": "2026-11-20T08:12:36.915Z",
+      "threadId": "01a1f803-bcc7-7502-bdec-17b06fdd743f",
+      "error": null,
+      "startedAt": "2026-11-20T08:12:36.916Z",
+      "archived": true,
+      "endedAt": "2026-11-20T08:14:33.078Z"
+    },
+    {
+      "id": "3f414fb0-5a80-43d6-973a-b8e73e18457a",
+      "sessionId": "5756c7cf-a422-419a-a77c-4b274c8198b6",
+      "title": "R1 market · independent landscape",
+      "status": "completed",
+      "createdAt": "2026-11-20T08:12:36.970Z",
+      "threadId": "01a1f803-bd04-79d2-923b-5a0581d0d943",
+      "error": null,
+      "startedAt": "2026-11-20T08:12:36.971Z",
+      "archived": true,
+      "endedAt": "2026-11-20T08:14:30.165Z"
+    },
+    {
+      "id": "58853777-9f36-42ec-9e78-ea2dd05a218f",
+      "sessionId": "5756c7cf-a422-419a-a77c-4b274c8198b6",
+      "title": "R1 inventor · independent mechanisms",
+      "status": "completed",
+      "createdAt": "2026-11-20T08:12:37.103Z",
+      "threadId": "01a1f803-bdc0-7a71-aa5e-1e6ab31c9811",
+      "error": null,
+      "startedAt": "2026-11-20T08:12:37.104Z",
+      "archived": true,
+      "endedAt": "2026-11-20T08:14:58.093Z"
+    },
+    {
+      "id": "839684bc-ef88-4b3e-a8c7-2a31a884179d",
+      "sessionId": "5756c7cf-a422-419a-a77c-4b274c8198b6",
+      "title": "R2 product · critique four mechanisms",
+      "status": "completed",
+      "createdAt": "2026-11-20T08:18:46.690Z",
+      "threadId": "01a1f809-6144-75f1-9da8-21cd0f6db7e8",
+      "error": null,
+      "startedAt": "2026-11-20T08:18:46.692Z",
+      "archived": true,
+      "endedAt": "2026-11-20T08:20:39.564Z"
+    },
+    {
+      "id": "ccf1c4f3-c629-414d-9ca7-ce7a035e4643",
+      "sessionId": "5756c7cf-a422-419a-a77c-4b274c8198b6",
+      "title": "R2 technical · feasible boundaries and critique",
+      "status": "completed",
+      "createdAt": "2026-11-20T08:18:46.809Z",
+      "threadId": "01a1f809-61d1-70f2-a119-fb56423ca4ec",
+      "error": null,
+      "startedAt": "2026-11-20T08:18:46.814Z",
+      "archived": true,
+      "endedAt": "2026-11-20T08:21:03.321Z"
+    },
+    {
+      "id": "37ca4b41-efd4-47ba-a458-25626883cd6d",
+      "sessionId": "5756c7cf-a422-419a-a77c-4b274c8198b6",
+      "title": "R2 market · duplication critique and queries",
+      "status": "failed",
+      "createdAt": "2026-11-20T08:19:06.132Z",
+      "threadId": "01a1f809-ad27-7680-a7ae-835d074d348a",
+      "error": "exceeded retry limit, last status: 429 Too Many Requests",
+      "startedAt": "2026-11-20T08:19:06.134Z",
+      "archived": true,
+      "endedAt": "2026-11-20T08:19:47.630Z"
+    },
+    {
+      "id": "132261d7-c1db-4555-9718-98250acf79d2",
+      "sessionId": "5756c7cf-a422-419a-a77c-4b274c8198b6",
+      "title": "R3 inventor · answer peer objections",
+      "status": "failed",
+      "createdAt": "2026-11-20T08:22:01.422Z",
+      "threadId": "01a1f80c-59e7-7262-93f0-6c072515ef44",
+      "error": "exceeded retry limit, last status: 429 Too Many Requests",
+      "startedAt": "2026-11-20T08:22:01.424Z",
+      "archived": true,
+      "endedAt": "2026-11-20T08:22:12.164Z"
+    },
+    {
+      "id": "830298b7-76f0-42e3-ab93-3c4120534140",
+      "sessionId": "5756c7cf-a422-419a-a77c-4b274c8198b6",
+      "title": "R3 customer · assess demand evidence",
+      "status": "failed",
+      "createdAt": "2026-11-20T08:22:01.502Z",
+      "threadId": "01a1f80c-5a9a-7380-a415-abe6bf8391ed",
+      "error": "exceeded retry limit, last status: 429 Too Many Requests",
+      "startedAt": "2026-11-20T08:22:01.505Z",
+      "archived": true,
+      "endedAt": "2026-11-20T08:22:11.913Z"
+    },
+    {
+      "id": "2efbea3d-451c-41d1-b982-3a980c5b2342",
+      "sessionId": "5756c7cf-a422-419a-a77c-4b274c8198b6",
+      "title": "R3 inventor · single replacement retry",
+      "status": "completed",
+      "createdAt": "2026-11-20T08:24:17.420Z",
+      "threadId": "01a1f80e-6d24-78c1-876c-091705eea691",
+      "error": null,
+      "startedAt": "2026-11-20T08:24:17.422Z",
+      "archived": true,
+      "endedAt": "2026-11-20T08:25:32.030Z"
+    },
+    {
+      "id": "4c211ab5-572d-4b74-b21c-a8eb10e9b442",
+      "sessionId": "5756c7cf-a422-419a-a77c-4b274c8198b6",
+      "title": "R4 Red Team · independent challenge",
+      "status": "completed",
+      "createdAt": "2026-11-20T08:26:32.742Z",
+      "threadId": "01a1f810-7dba-78d0-a183-9887e5eb51d5",
+      "error": null,
+      "startedAt": "2026-11-20T08:26:32.745Z",
+      "archived": true,
+      "endedAt": "2026-11-20T08:28:21.584Z"
+    },
+    {
+      "id": "9f68563d-0fbe-49b9-9f2b-57c75dd3bc91",
+      "sessionId": "5756c7cf-a422-419a-a77c-4b274c8198b6",
+      "title": "R5 inventor · respond to Red Team",
+      "status": "completed",
+      "createdAt": "2026-11-20T08:28:55.967Z",
+      "threadId": "01a1f812-ad34-7962-b76b-5280eefc67d6",
+      "error": null,
+      "startedAt": "2026-11-20T08:28:55.969Z",
+      "archived": true,
+      "endedAt": "2026-11-20T08:30:26.558Z"
+    }
+  ],
+  "runtime": {
+    "ready": true,
+    "error": null,
+    "model": "gpt-6-astra",
+    "effort": "ultra",
+    "mode": "read-only",
+    "kind": "codex-app-server"
+  },
+  "limits": {
+    "perSession": 3,
+    "globalWorkers": 4,
+    "queued": 32
+  },
+  "checkedAt": "2026-11-20 08:33:56 UTC"
+}

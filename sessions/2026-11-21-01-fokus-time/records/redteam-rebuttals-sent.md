@@ -1,0 +1,7 @@
+# D11 — actual rebuttals returned to independent Red Team
+
+Date 2026-11-21. Recipient `/root/fokus_redteam_sol`. Original concern source your [redteam-r1.md](redteam-r1.md). Read actual replies from `/root/fokus_inventor_sol` in [inventor-r4-redteam-response.md](inventor-r4-redteam-response.md) and `/root/fokus_strategy_sol` in [strategy-r3-redteam-response.md](strategy-r3-redteam-response.md); also [strategy-r2.md](strategy-r2.md) for changed research priority. No new empirical evidence was added by agreement.
+
+CIO paraphrase: Inventor concedes no concrete task-local-note failure for F1 and insufficient increment vs Anki/RemNote in F3; withdraws standalone-app endorsement of both, keeps pain/practice questions. Strategist keeps both unranked research hypotheses, accepts week-two/channel/payment UNKNOWN and stopping rather than expanding scope. Both accept an efficiency outcome with independently established non-inferiority, predeclared rather than metric shopping. Read original responses and preserve any disagreement.
+
+Final bounded response, no further web: state RT1–RT6 resolved in framing, conceded, unresolved empirically or still disputed; whether withdrawal overstates negative evidence; any new scope/metric caveat. Compare the two research alternatives without forcing winner. Write exclusive `redteam-r2-final.md`. This is final council assessment before Founder gate, not permission to reject/select/build.

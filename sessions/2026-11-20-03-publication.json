@@ -1,0 +1,57 @@
+{
+  "session": "SES-20261120-03",
+  "status": "PUBLISHED",
+  "acquiredAt": "2026-11-20T15:39:42.178330+07:00",
+  "owner": "CIO current chat; runtime chat locator unavailable",
+  "baseHashes": {
+    "portfolio/idea-backlog.md": "b935f3e1a8e75d0d5fe5f7ae680163399596b2babd85ff907164889341a831fc",
+    "portfolio/decision-log.md": "2dbfbbd350e9c52f109b4e66dae754b220944a97f56aa0a6b17131c77d37513b",
+    "sessions/README.md": "b5934677e281fc63a1c2113cfd2d5fba585397e723755899ffc7aa328f3c1ded",
+    "sessions/2026-11-20-03-independent-discovery.md": "302479a44b6916aa1ae88d32cbb463932da47e657b9202bf63abec0ba553de90"
+  },
+  "proposedChanges": {
+    "allocate": {
+      "ChangeReceipt": "IDEA-0009",
+      "ClassRelay": "IDEA-0010",
+      "PartRoute": "IDEA-0011",
+      "GuideExpiry": "IDEA-0012"
+    },
+    "backlog": "Append four r3 exploratory candidates; preserve old rows and Founder NONE",
+    "index": "Update only current session to AWAITING_FOUNDER",
+    "report": "Complete final synthesis and preserve reservation history",
+    "decisionLog": "UNCHANGED"
+  },
+  "scope": "Documentation only; no experiment/product/implementation",
+  "hubClosure": {
+    "status": "CLOSED",
+    "sessionId": "5756c7cf-a422-419a-a77c-4b274c8198b6",
+    "receipt": "2026-11-20-03-hub-closed.json",
+    "terminalJobs": 11
+  },
+  "verification": {
+    "status": "PASS",
+    "receipt": "2026-11-20-03-verification.json",
+    "checks": 39,
+    "scope": "CIO documentation self-check; not independent source reproduction, product tests or commercial validation"
+  },
+  "publishedAt": "2026-11-20T15:39:42.183680+07:00",
+  "allocatedIds": {
+    "ChangeReceipt": "IDEA-0009",
+    "ClassRelay": "IDEA-0010",
+    "PartRoute": "IDEA-0011",
+    "GuideExpiry": "IDEA-0012"
+  },
+  "preservedOldRows": 8,
+  "decisionLogUnchanged": true,
+  "resultHashes": {
+    "portfolio/idea-backlog.md": "296139ab235e7ba66d406113d212b58c7fe06f0b1faf72c22a1fb9042fd4a565",
+    "portfolio/decision-log.md": "2dbfbbd350e9c52f109b4e66dae754b220944a97f56aa0a6b17131c77d37513b",
+    "sessions/README.md": "8c835033e3c3ba31104498e4648950239a564103694473a314f3868e292a8f46",
+    "sessions/2026-11-20-03-independent-discovery.md": "09b819986aa99e91518b6bff822238ee9805dd0a20442971c920547301b558dc"
+  },
+  "lockReleasedAt": "2026-11-20T15:39:42.184307+07:00",
+  "completedAt": "2026-11-20T15:40:41.832279+07:00",
+  "elapsedToPublicationCompletionSeconds": 1684.916279,
+  "elapsedNote": "Includes handoff and documentation time; research ended at 08:30:26.558Z, without restarting research budget.",
+  "recoveredPreparationError": "Initial publication script had a syntax error after successful lock mkdir and before writes. This chat immediately recorded its ownership, corrected the script, then published and released its own lock; no shared records changed before recovery."
+}

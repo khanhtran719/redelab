@@ -1,0 +1,72 @@
+# SES-20261121-01 — Market R1 (independent initial record)
+
+Owner/runtime: `/root/fokus_market_sol`; configured role `market-analyst`, gpt-6.1-sol. Research/access date: **2026-11-21**. Initial assignment excluded other agents' candidates; no candidate file read, no prior session claim reused as fresh verification. No delegation. This is vendor-source research, not app testing or customer interviews. Findings below are frozen R1; later critique must append a revision.
+
+## Search receipt and limits
+
+Tools: `functions.exec` → `tools.web__run`. **3 search queries / 4 allowed; 14 successfully inspected unique pages / 14 allowed; 17 URL attempts, 3 inaccessible.** Reopens/finds inspect the same page and add no unique page. Redirects count as one destination inspection. English/global official sites, one Chinese Tide page, VN and US Apple storefronts. Queries, exactly:
+
+1. `Focus Plant Shikudo official Google Play iOS`
+2. `Study Bunny Superbyte official app Google Play iOS`
+3. `Forest Focus To-Do Flora Tide Structured Opal Freedom one sec Session pricing official 2026`
+
+Search snippets were used only to locate sources; third-party comparison prices were **not** promoted to VERIFIED. No app accounts, purchases or installations. Stopped at the inspected-page budget. Publication dates are UNKNOWN unless explicitly stated below; access date does not imply a freshly published source. Apple Forest result says crawled three weeks ago; Focus To-Do says yesterday. These are publicly retrieved snapshots, not checkout prices guaranteed today.
+
+## Source ledger (all accessed 2026-11-21)
+
+| ID | Publisher / exact URL | Locator / inspected scope | Quality and limits |
+|---|---|---|---|
+| M-S1 | Forest, https://www.forestapp.cc/ | Lines 161–179, 260–262, 302–390, 449–451 | Official vendor capability/plan claims; no device test. Plus local price explicitly delegated to stores. |
+| M-S2 | Focus To-Do, https://www.focustodo.cn/ | Lines 2–72 | Official task/timer, reports, synchronization and platform download links; price absent. |
+| M-S3 | Shikudo, https://www.shikudo.com/focus-plant | Inaccessible | Failed attempt, no verified product-page content. |
+| M-S4 | Flora, https://flora.appfinca.com/ | Lines 2–57, 184–189 | Correct official domain; tree sessions, friends/chat, tasks/habits, free claim and store links. Runtime parity not tested. |
+| M-S5 | Tide, https://tide.fm/ | Lines 7–29, 52–63 | Official Chinese page; focus/sleep/meditation/breathing, platform links. Translation by researcher; prices UNKNOWN. |
+| M-S6 | Session, https://www.stayinsession.com/ | Lines 2–59 | Official; blocker section explicitly Mac Only, reflection, Slack Pro, Apple synchronization. No Android conclusion from omission. |
+| M-S7 | Structured, https://structured.app/ | Lines 8–12, 160–196 | Official visual timeline, calendar import, AI planning link, web and Apple imagery. No verified Android or paid price. |
+| M-S8 | Opal, https://www.opal.so/ → https://opalapp.com/ | Lines 19–50, 312–314, 553–566 | Official redirect; scoring, blocking rules, timer/rewards, iPhone/Mac/Android. No tier price inspected. |
+| M-S9 | Freedom, https://freedom.to/ | Positioning lines 11–24 | Official blocker positioning; vendor testimonials not independent outcomes. |
+| M-S10 | one sec, https://one-sec.app/ | Lines 58–165, 206–208, 274–294 | Official interruptions, schedules, habits, Structured integration, platforms. Research-effect claims not independently evaluated. |
+| M-S11 | SuperByte, https://www.superbyte.site/study-bunny | Inaccessible | Failed attempt; no content verified here. |
+| M-S12 | Shikudo, https://www.shikudo.com/ | Lines 75–85 | Official Focus Plant garden/raindrops loop; shared focus-time ecosystem. Specific Focus Plant platform/price UNKNOWN. |
+| M-S13 | SuperByte, https://www.superbyte.site/faq | Lines 22–30, 35–40, 64–101 | Official self-accountability, Android/iOS instructions, ads/offline and one-time USD purchase tiers. FAQ update date UNKNOWN. |
+| M-S14 | Freedom, https://freedom.to/upgrade → https://freedom.to/premium | Lines 37–101 | Official free/premium/forever pricing, platform and feature tier list; checkout region/currency denomination not explicitly identified beyond `$`. |
+| M-S15 | Apple VN / SEEKRTECH, https://apps.apple.com/vn/app/forest-focus-for-productivity/id866450515 | Lines 24, 52–60, 350–385 | VN storefront: free download, VND IAP labels. Annual/monthly Early Bird labels are not a promise of eligibility or renewal price. |
+| M-S16 | Apple VN / Focus To-Do, https://apps.apple.com/vn/app/focus-to-do-pomodoro-tasks/id966057213 | Inaccessible | Failed attempt; no VN price claim. |
+| M-S17 | Apple US / Focus To-Do, https://itunes.apple.com/us/app/id966057213?mt=8 → https://apps.apple.com/us/app/focus-to-do-focus-timer-tasks/id966057213 | Lines 25, 89–104, 300–321 | US storefront IAP prices/languages; one dated public review, not current defect verification. |
+
+## Compact comparison — all eleven requested competitors
+
+Capability/platform/price cells are **VERIFIED vendor/store claims** only where sourced. Target/job is the positioning plus a bounded **INFERENCE** about likely self-paying user. Strength/weakness is analyst **INFERENCE** relative to that job, except explicit documented limitations. Uninspected does not mean absent.
+
+| Competitor | Target/job and workflow | Difference / strength | Weakness or unresolved limit | Platforms / price basis |
+|---|---|---|---|---|
+| Forest | Learner/worker wanting phone distance; grow a tree while focusing, retain a visible forest. | Timer + loss stakes + blocker + shared room. Broad free bundle raises switching threshold. | Free Time Guard limited to one app/site; local plan entitlements need device check. | iOS/Android/browser (M-S1). VN iOS free; IAP **Annual Early Bird 555,000đ/year**, **Monthly Early Bird 92,000đ/month** (M-S15). Not verified standard renewal price. |
+| Focus To-Do | Person managing work/study tasks; set task, run Pomodoro, review project/time reports. | Integrates execution with due dates, reminders, subtasks and repeat tasks; multiple-device continuity. | Strong overlap for any task-linked timer concept. Actual sorting/estimate flexibility needs testing. | Official Android/iOS/Mac/Windows/Chrome links (M-S2). US iOS free; **USD11.99 lifetime**, **USD3.99/3 months**, Premium USD1.99 period UNKNOWN (M-S17); VN UNKNOWN. |
+| Focus Plant | Person motivated by collecting/gardening; focus time earns raindrops and restores plants. | Game economy and shared focus time across Shikudo games (M-S12). | Whether game administration distracts from study is HYPOTHESIS, not observed complaint. Specific app page inaccessible. | Focus Plant iOS/Android/price **UNKNOWN in inspected sources**; do not borrow other Shikudo apps' badges. |
+| Flora | Friends/individuals wanting study discipline; tree session plus joint planting, chat, task tagging and habit history. | Already combines social accountability and task/habit loop (M-S4). | Group coordination burden is INFERENCE; no evidence of poor coordination UX or low retention. | Official App Store + Google Play + Chrome links. Vendor says free; optional Price/Care services, paid amounts/period UNKNOWN. |
+| Tide | User seeking a calm work/rest routine; natural sounds plus Pomodoro, sleep, meditation and breathing. | Competes for the mindfulness/rest job as well as timer use (M-S5). | Relative advantage in hard blocking UNKNOWN; no blocker absence claim. | Official iPhone/iPad/Android/HarmonyOS/Chrome links. Price/currency/period UNKNOWN. |
+| Session | Apple-centric deep-work user; state focus, timed session, Mac blocker, end-session reflection. | Reflection plus Slack focus status (Pro), iPhone/iPad/Mac progress sync (M-S6). | Vendor explicitly limits blocking section to Mac; mobile blocker equivalent not established. | macOS/iOS/iPadOS verified; Android UNKNOWN. Price UNKNOWN. |
+| Structured | User overwhelmed by the day's tasks; organize a visual timeline, import calendar, plan with AI. | Planning and habit formation compete upstream of starting work (M-S7). | Setup burden is INFERENCE; AI quality and plan execution gains UNKNOWN. | Web, iPhone/Apple Watch presentation verified; complete platform availability and Android UNKNOWN. Starts free; paid amount/period UNKNOWN. |
+| Opal | Screen-time reduction user; automated focus rules, timed lock-in, wellbeing score and milestone gems. | Automatic blocking + feedback/rewards rather than timer alone (M-S8). | Whether its score maps to customer-valued work outcome UNKNOWN. No unsupported bypass/price complaint. | iPhone/Mac/Android official claim. Free trial link; full free tier and paid price UNKNOWN. |
+| Freedom | Cross-device distraction-control user; synchronized blocklists, premium recurring schedules/Locked Mode. | Broad device coverage reduces cross-device escape (M-S9/M-S14). | Subscription and configuration are possible switching frictions, not sourced complaints. | Mac/Windows/iOS/Android/Chromebook. Web free **$0**; **$8.99/month**, **$3.33/month yearly-option display**, **$99.50 lifetime sale**; tax extra. `$` currency/region UNKNOWN, yearly billed total UNKNOWN. |
+| one sec | Habitual app opener; interruption before entry, intentions/emotions, scheduled hard blocks. | Acts at impulse moment; integrates Structured task state with blocking (M-S10). | A timer alone cannot claim this mechanism; interruption annoyance/efficacy for VN cohort UNKNOWN. | iOS/Android + Windows/macOS/Linux browser extension. Essentials free; consumer paid amount UNKNOWN. Team offer 83ct/user/month annually advertised, currency UNKNOWN; not comparable consumer price. |
+| Study Bunny | Student needing self-accountability; timer earns coins, bunny rewards; Honesty Mode self-reports distraction. | Permits legitimate study-phone use; deliberately avoids universal lockout (M-S13). | **Explicitly does not block apps**; cloud save is manual; offline access is paid. These are design constraints, not proven customer pain. | Android/iOS instructions verified, store availability not directly tested. FAQ one-time **USD1.99/4.99/14.99/19.99** packages; USD14.99 tier removes forced ads + enables offline (cloud still needs network). Region UNKNOWN. |
+
+## Findings and implications
+
+- **M1 — INFERENCE, HIGH (vendor overlap clear; demand unknown):** Combining timer, blocking, gamification and shared accountability alone has high duplication risk. M-S1 explicitly places Deep Focus and Plant Together in Free; M-S4 adds friends/chat/tasks/habits. This rebuts differentiation based only on those feature names. It does not establish that either competitor serves every narrowly defined workflow well.
+- **M2 — VERIFIED, HIGH for listing; INFERENCE, MEDIUM for pressure:** A Vietnamese label alone is weak differentiation: M-S17 lists Vietnamese for Focus To-Do. Its listed low lifetime price creates a real alternative to a paid task/timer app. VN checkout and language quality remain UNKNOWN. Conversely M-S15's published language list omits Vietnamese; that is only this listing's declared languages, not proof every Forest surface lacks Vietnamese.
+- **M3 — INFERENCE, MEDIUM:** Adjacent workflows already span deep work/reflection (Session), AI/day planning (Structured), impulse intervention/habits (one sec), wellbeing (Tide), automatic blocking/rewards (Opal) and game progression (Focus Plant/Study Bunny). Adding AI or a mascot does not by itself establish a new job. Quality, trust, real execution and distribution might differ; none measured here.
+- **M4 — VERIFIED, narrow dated customer signal:** M-S17 public review dated **2024-02-15** requests custom Today sorting, schedule-aware estimates and easier changes to future Pomodoro lengths. This supports a historic workflow-friction hypothesis, not a verified current missing feature. It is one selected US-store review with no cohort prevalence; unrelated speculation about data transmission is excluded. A 2020 review on the same page asked for bulk raw-data export, also not current absence evidence. **Confidence LOW for present opportunity.**
+- **M5 — INFERENCE, MEDIUM:** Switching is more than installing an app: accumulated forests/plants/bunny items, task history and focus statistics create possible sunk-value friction; friend-room habits and device setup add coordination friction. Evidence is existence of these loops, not measured lock-in. Evidence that users regularly abandon them would lower this assessment.
+- **M6 — UNKNOWN:** VN/SEA willingness-to-pay, local competitors, channel acquisition cost, student payment access, Android/iOS parity and app-store regional availability have not been established. One VN listing is not SEA validation. No claims about TAM, conversion, revenue, retention or actual local distribution are supported.
+
+## Remaining alternatives and differentiation hypotheses
+
+Coverage map: **timer/deep work** M-S1/2/6; **blocking** M-S1/4/8/9/10; **game** M-S1/12/13; **social rooms/accountability** M-S1/4/13; **habits** M-S4/10; **mindfulness/rest** M-S5; **AI/day planning** M-S7; **free** M-S1/4/10/14. **Native/free OS capability specifics are UNKNOWN in this R1** and belong to CIO's separately sourced check.
+
+Manual/no-change alternatives are **HYPOTHESIS comparison baselines**, not observed usage: a physical/phone timer plus paper task list; silent phone left outside reach; calendar blocks; a friend check-in or existing study chat; accepting interruptions without a new app. Existing study rooms/video coworking services and coaching are adjacent leads not inspected. Do not imply those categories have no competition.
+
+Possible differentiation requires a falsifiable workflow result, for example starting a specific intended task after an interruption, recovering without abandoning a day, or finishing a shared study commitment without punitive group failure. These are **HYPOTHESIS directions, not candidate recommendations**; no claim competitors lack them. A comparative test must show the chosen cohort completes more intended work with less setup than its current alternative, then voluntarily returns/pays. Distribution through a demonstrated trusted cohort may matter more than feature breadth; no channel advantage has been verified.
+
+Market assessment before debate: **HIGH duplication risk for generic feature bundle; UNKNOWN opportunity for a sharply bounded unmet workflow.** No Founder decision or implementation authorization inferred.

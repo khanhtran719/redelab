@@ -1,0 +1,198 @@
+[
+  {
+    "id": "CLM-001",
+    "claim": "ChangeReceipt general pre-work evidence/approval flow overlaps Clearstory and local Faceworks descriptions.",
+    "class": "INFERENCE",
+    "sources": [
+      "SRC-001",
+      "SRC-014"
+    ],
+    "confidence": "HIGH for described overlap; actual UX/performance unknown",
+    "counter": "A narrow unmet workflow could remain; not demonstrated.",
+    "scope": "VN small fit-out/booth contractor concept; vendor descriptions accessed 2026-11-20",
+    "assessedOn": "2026-11-20",
+    "whatWouldChangeAssessment": "Observed target advantage over template/chat and vendors"
+  },
+  {
+    "id": "CLM-002",
+    "claim": "Small Vietnam fit-out/booth contractors lose enough recoverable margin from approval friction to buy this tool.",
+    "class": "UNKNOWN",
+    "sources": [],
+    "confidence": "LOW; no target interviews/files/payment behavior",
+    "counter": "Customer refusal/contract disputes may dominate; template/chat may suffice.",
+    "scope": "Target VN small fit-out/booth contractors; no sample",
+    "assessedOn": "2026-11-20",
+    "whatWouldChangeAssessment": "Consecutive authorized cases with timing, collection outcomes and buyer payment behavior"
+  },
+  {
+    "id": "CLM-003",
+    "claim": "Real music schools explicitly organize or encourage student lesson swaps.",
+    "class": "VERIFIED",
+    "sources": [
+      "SRC-003",
+      "SRC-015",
+      "SRC-017"
+    ],
+    "confidence": "HIGH for published policies only",
+    "counter": "Selected foreign schools; dates and permanent versus weekly use differ.",
+    "scope": "Selected international music-school policies; older 2022-2023 and 2025-26 documents included",
+    "assessedOn": "2026-11-20",
+    "whatWouldChangeAssessment": "Current target-school observation, separate temporary/permanent changes"
+  },
+  {
+    "id": "CLM-004",
+    "claim": "Existing tools offer make-up credits/self-booking and advertise lesson swaps.",
+    "class": "VERIFIED",
+    "sources": [
+      "SRC-002",
+      "SRC-016"
+    ],
+    "confidence": "HIGH for vendor text; exact occupied-cycle behavior UNKNOWN",
+    "counter": "SRC-016 broad copy advertises peer trades while detailed bullets mention free-slot swaps; exact cycle support was not tested.",
+    "scope": "Inspected international vendor documentation only, 2026-11-20",
+    "assessedOn": "2026-11-20",
+    "whatWouldChangeAssessment": "Authorized direct comparison clarifying occupied-slot three-party behavior"
+  },
+  {
+    "id": "CLM-005",
+    "claim": "Three-party occupied-slot cycles can resolve meaningfully more eligible requests at lower admin cost than free slots/pairs.",
+    "class": "HYPOTHESIS",
+    "sources": [
+      "SRC-003",
+      "SRC-002"
+    ],
+    "confidence": "LOW; no calendar/consent measurements",
+    "counter": "Sparse compatibility, slow replies and rollback cost can erase gain.",
+    "scope": "One center with compatible lessons and full consent; no observed sample",
+    "assessedOn": "2026-11-20",
+    "whatWouldChangeAssessment": "Consecutive requests with real completed swaps and total admin effort"
+  },
+  {
+    "id": "CLM-006",
+    "claim": "Furniture claims and part-level identification are already described by Claimlane.",
+    "class": "VERIFIED",
+    "sources": [
+      "SRC-004",
+      "SRC-013"
+    ],
+    "confidence": "HIGH for described capabilities",
+    "counter": "No account/integration/product quality tested.",
+    "scope": "Claimlane published furniture/parts workflow; 2026-11-20",
+    "assessedOn": "2026-11-20",
+    "whatWouldChangeAssessment": "Direct authorized product comparison and target workflow gap"
+  },
+  {
+    "id": "CLM-007",
+    "claim": "A narrower parts-first workflow will reduce total cost for target small sellers after support, wrong shipments and repeat complaints.",
+    "class": "UNKNOWN",
+    "sources": [
+      "SRC-004",
+      "SRC-005"
+    ],
+    "confidence": "LOW; vendor/policy evidence is not target unit economics",
+    "counter": "Technician checklist and existing aftersales can be sufficient.",
+    "scope": "Target small furniture sellers; geography and economics untested",
+    "assessedOn": "2026-11-20",
+    "whatWouldChangeAssessment": "Full case economics including repeat delivery/support/installation"
+  },
+  {
+    "id": "CLM-008",
+    "claim": "Some software users have publicly reported tutorials failing due to changed APIs/configuration while links may still work.",
+    "class": "VERIFIED",
+    "sources": [
+      "SRC-010",
+      "SRC-011"
+    ],
+    "confidence": "MEDIUM; inspected dated issue reports, not reproduced",
+    "counter": "Two selected OSS contexts, one closed issue, no prevalence or buyer inference.",
+    "scope": "Selected Godot/Besu public issues from 2022-2025, inspected 2026-11-20",
+    "assessedOn": "2026-11-20",
+    "whatWouldChangeAssessment": "Broader recent target sample and reproduction of reported mechanism"
+  },
+  {
+    "id": "CLM-009",
+    "claim": "Documentation invalidation/testing has close substitutes in Swimm, ABP validator and pinned references.",
+    "class": "INFERENCE",
+    "sources": [
+      "SRC-006",
+      "SRC-011",
+      "SRC-012"
+    ],
+    "confidence": "HIGH for documented overlap; actual accuracy/cost untested",
+    "counter": "Version/environment proof obligations might retain a narrow unproven distinction.",
+    "scope": "Published documentation mechanisms, not live product comparison",
+    "assessedOn": "2026-11-20",
+    "whatWouldChangeAssessment": "Direct authorized cost/error comparison with tools and pinned/manual alternatives"
+  },
+  {
+    "id": "CLM-010",
+    "claim": "GuideExpiry selective recertification saves work without missing critical failures.",
+    "class": "HYPOTHESIS",
+    "sources": [
+      "SRC-006",
+      "SRC-010",
+      "SRC-011",
+      "SRC-012"
+    ],
+    "confidence": "LOW; sources motivate problem/substitutes, not proposed advantage",
+    "counter": "Missing dependencies and false alarms; direct comparison needed.",
+    "scope": "Small software team with UI/config-sensitive guides; no observed trial",
+    "assessedOn": "2026-11-20",
+    "whatWouldChangeAssessment": "Independent full review across relevant releases, with total effort and severe misses"
+  },
+  {
+    "id": "CLM-011",
+    "claim": "Customer willingness to pay and affordable repeatable distribution are established for any candidate.",
+    "class": "UNKNOWN",
+    "sources": [],
+    "confidence": "LOW; not investigated with authorized buyers",
+    "counter": "Vendor prices and stated enthusiasm are insufficient.",
+    "scope": "All four candidates, target segments/geographies not commercially validated",
+    "assessedOn": "2026-11-20",
+    "whatWouldChangeAssessment": "Real buyer choice at a stated price and repeatable acquisition costs"
+  },
+  {
+    "id": "CLM-012",
+    "claim": "Narrow human-reviewed workflows may avoid mandatory external APIs at first validation.",
+    "class": "INFERENCE",
+    "sources": [],
+    "confidence": "MEDIUM; R2-T actual assessment, export/rights not exercised",
+    "counter": "Manual data preparation and dual records may erase benefits.",
+    "scope": "R2-T-01/03/04/05 human-reviewed boundaries; exports and access untested",
+    "assessedOn": "2026-11-20",
+    "whatWouldChangeAssessment": "Authorized data export and manual validation with complete labor accounting",
+    "agentEvidence": [
+      "R2-T-01",
+      "R2-T-03",
+      "R2-T-04",
+      "R2-T-05"
+    ],
+    "locator": "2026-11-20-03-r2-results.json#output"
+  },
+  {
+    "id": "CLM-013",
+    "claim": "Legal/data requirements are cleared for launch in VN/SEA/international contexts.",
+    "class": "UNKNOWN",
+    "sources": [],
+    "confidence": "LOW; no jurisdiction-specific legal review, customer consent or data entitlement",
+    "counter": "Contract authority, children's schedule privacy, repair safety/consumer obligations and code confidentiality need scoping.",
+    "scope": "VN/SEA/international launch contexts not jurisdictionally assessed",
+    "assessedOn": "2026-11-20",
+    "whatWouldChangeAssessment": "Bounded jurisdiction/use case, rights, consent and applicable requirements examined"
+  },
+  {
+    "id": "CLM-014",
+    "claim": "Material substitution preapproval, group-trip constraint planning and survey quality checking have established adjacent workflows.",
+    "class": "INFERENCE",
+    "sources": [
+      "SRC-007",
+      "SRC-008",
+      "SRC-009"
+    ],
+    "confidence": "MEDIUM/LOW; official docs plus weak supplier/vendor content",
+    "counter": "Only lightweight screen; not rejection or proof all niches served.",
+    "scope": "Session-local ideas 02/06/07; adjacent garments/footwear/travel/survey workflows only",
+    "assessedOn": "2026-11-20",
+    "whatWouldChangeAssessment": "Targeted evidence beyond adjacent positioning; actual critique cycle"
+  }
+]

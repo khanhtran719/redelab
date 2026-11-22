@@ -1,0 +1,297 @@
+{
+  "date": "2026-11-20",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "cli": "codex-cli 0.167.0",
+  "roles": [
+    {
+      "name": "creative-inventor",
+      "fields": [
+        "description",
+        "developer_instructions",
+        "name"
+      ],
+      "native_description_locations": [
+        "$[0].tools[2].tools[4].parameters.properties.agent_type.description"
+      ],
+      "executed": false
+    },
+    {
+      "name": "customer-researcher",
+      "fields": [
+        "description",
+        "developer_instructions",
+        "name"
+      ],
+      "native_description_locations": [
+        "$[0].tools[2].tools[4].parameters.properties.agent_type.description"
+      ],
+      "executed": false
+    },
+    {
+      "name": "market-analyst",
+      "fields": [
+        "description",
+        "developer_instructions",
+        "name"
+      ],
+      "native_description_locations": [
+        "$[0].tools[2].tools[4].parameters.properties.agent_type.description"
+      ],
+      "executed": false
+    },
+    {
+      "name": "product-strategist",
+      "fields": [
+        "description",
+        "developer_instructions",
+        "name"
+      ],
+      "native_description_locations": [
+        "$[0].tools[2].tools[4].parameters.properties.agent_type.description"
+      ],
+      "executed": false
+    },
+    {
+      "name": "red-team-critic",
+      "fields": [
+        "description",
+        "developer_instructions",
+        "name"
+      ],
+      "native_description_locations": [
+        "$[0].tools[2].tools[4].parameters.properties.agent_type.description"
+      ],
+      "executed": false
+    },
+    {
+      "name": "technical-advisor",
+      "fields": [
+        "description",
+        "developer_instructions",
+        "name"
+      ],
+      "native_description_locations": [
+        "$[0].tools[2].tools[4].parameters.properties.agent_type.description"
+      ],
+      "executed": false
+    }
+  ],
+  "skills": [
+    {
+      "name": "adversarial-review",
+      "native_description_locations": [
+        "$[2].content[0].text"
+      ],
+      "current_chat_catalog": true
+    },
+    {
+      "name": "creative-ideation",
+      "native_description_locations": [
+        "$[2].content[0].text"
+      ],
+      "current_chat_catalog": true
+    },
+    {
+      "name": "feasibility-assessment",
+      "native_description_locations": [
+        "$[2].content[0].text"
+      ],
+      "current_chat_catalog": true
+    },
+    {
+      "name": "idea-evaluation",
+      "native_description_locations": [
+        "$[2].content[0].text"
+      ],
+      "current_chat_catalog": true
+    },
+    {
+      "name": "market-intelligence",
+      "native_description_locations": [
+        "$[2].content[0].text"
+      ],
+      "current_chat_catalog": true
+    },
+    {
+      "name": "problem-discovery",
+      "native_description_locations": [
+        "$[2].content[0].text"
+      ],
+      "current_chat_catalog": true
+    },
+    {
+      "name": "product-opportunity",
+      "native_description_locations": [
+        "$[2].content[0].text"
+      ],
+      "current_chat_catalog": true
+    }
+  ],
+  "native_prompt_sha256": "a3dcb33c38dcf03340d483e2835e3e3c026bf741c7dd15cc7fa076d00412104d",
+  "lock_fixture": {
+    "kind": "executed_local_filesystem_fixture_two_threads_not_agents",
+    "contenders": [
+      {
+        "contender": "fixture-A",
+        "acquired": false,
+        "wrote": false
+      },
+      {
+        "contender": "fixture-B",
+        "acquired": true,
+        "wrote": true
+      }
+    ],
+    "exclusive_acquisition_and_loser_no_write": true,
+    "orphan_lock_refused": true,
+    "handoff_after_explicit_owner_release": true,
+    "base_drift_detected": true,
+    "limits": "Does not establish agent compliance, multi-file atomicity or distributed filesystem correctness."
+  },
+  "disk_configuration": {
+    "project": {
+      "agents": {
+        "enabled": true,
+        "max_concurrent_threads_per_session": 3
+      }
+    },
+    "subagent_defaults": {
+      "default_subagent_model": "gpt-6-luna",
+      "default_subagent_reasoning_effort": "high"
+    },
+    "project_trust": {
+      "trust_level": "trusted"
+    },
+    "active_chat_effective_config_snapshot": "NOT_AVAILABLE",
+    "no_config_mutations": true
+  },
+  "historical_scope": {
+    "phase1_native_config_read": "reported in protocols/setup-validation.md; not freshly executed",
+    "current_native_probe": "debug prompt-input only; no model turn"
+  },
+  "baseline_hashes": {
+    ".agents/skills/adversarial-review/SKILL.md": "81f8df1be96ec1cba24017381450e8cb979d03d19e81ed172d5bbef7d846d3be",
+    ".agents/skills/creative-ideation/SKILL.md": "42591b1fce6fb772a905f456b3e2aba1db1c2e79cc08cea2a01389d001bda74e",
+    ".agents/skills/feasibility-assessment/SKILL.md": "3cb785f145eaa1f73d9afc180eb4c1844aa452b0c570cbccbc606ecdf1c24ad9",
+    ".agents/skills/idea-evaluation/SKILL.md": "0c2110ffd6a4b89aa146c64e8689337a90d04f8ae570c80d337217ae7e7a9a91",
+    ".agents/skills/market-intelligence/SKILL.md": "ae4263b399432d598d2bf04b9586cc2c809a2b30e62d1574a327137a71fcfc6a",
+    ".agents/skills/problem-discovery/SKILL.md": "07920b70801328a1e945a33d02950531fb5b6028f182300f19ebc353a905202e",
+    ".agents/skills/product-opportunity/SKILL.md": "1ad47a370a985e85752981dded88f872c51e51c1a04ac419d9a2a32379abd96c",
+    ".codex/agents/creative-inventor.toml": "0d3f2d2f54c9bf3d85d02c75c2b357203c66bad73a272999414b9d281be39dbd",
+    ".codex/agents/customer-researcher.toml": "5ecaeef2b6681bdbe24358bce6095f4a3a12ec08dbfa10c0e1a76f16b0e7caf7",
+    ".codex/agents/market-analyst.toml": "51b53ec83e8084f272924b66365a7e560c696c2841977c18b70576f1c97c7c92",
+    ".codex/agents/product-strategist.toml": "1ce56d7870e71c8540b27b39e9c879be50a7c050dab88b7da3c750334bead032",
+    ".codex/agents/red-team-critic.toml": "57c64fb6b6fbd7fc8cd9fb8f274c18ec886947f7f8810cf9a362e88cf81e25ba",
+    ".codex/agents/technical-advisor.toml": "6139ef7048301915edbc3cffa61d3d78ad7bd25bb38a9393cbd8983d00af532f",
+    ".codex/config.toml": "f424c387af87bd9190f789cd5b8970242618bf9facefbfff779585b45467733c",
+    "AGENTS.md": "19e4d3f71f6e5b0a7f2b5860198888aafb497647fa5efbd153784bf3cbab10d9",
+    "README.md": "43b37c7323e84b577e86ba4074762ca4a3e078c0a70833273a8d09e2e9763763",
+    "portfolio/decision-log.md": "2dbfbbd350e9c52f109b4e66dae754b220944a97f56aa0a6b17131c77d37513b",
+    "portfolio/idea-backlog.md": "b935f3e1a8e75d0d5fe5f7ae680163399596b2babd85ff907164889341a831fc",
+    "protocols/debate-rules.md": "a309a03b70ea59214a884a1e4331ac6f5231cd45453a9751000cdfc241880bd8",
+    "protocols/evidence-policy.md": "cb5d40311c99fbf20fbc21186ec6937133a6ab75ac11fab61bbd1f70fb047604",
+    "protocols/ideation-session.md": "6d1964d05252a53c410bf0c7abec3ae5514f354186956a8d9b3b59e6d4526541",
+    "protocols/scoring-rubric.md": "06b2dd59763327e1fa4588e3402db066520537f101d7277f779273b302e33737",
+    "protocols/setup-validation.md": "7dbb3cf738c3b05aa169e908ddf403938812e0c93aac8ffb4e73ba94bb4229c1",
+    "sessions/2026-11-20-01-broad-discovery.md": "31ef873f15e9f7856be1476bf8dd795b3c8051e1241c3f44ad709fd9286f1767",
+    "sessions/README.md": "16016952c0d7d41fbcd3a5033c55bd83a5016fde9af3c7326f33e9e745a733f6"
+  },
+  "verification_scope": "Static/config discovery plus isolated filesystem fixture. No agent execution, critique-response, Red Team, market validation or Founder decision.",
+  "capabilities": {
+    "direct_collaboration_schemas_available": [],
+    "nested_collaboration_matches": [],
+    "native_cli_preview_only": [
+      "spawn_agent",
+      "send_message",
+      "wait_agent",
+      "interrupt_agent",
+      "list_agents"
+    ],
+    "actual_spawns": 0,
+    "actual_exchanges": 0,
+    "independent_red_team_runs": 0,
+    "search_service_search_and_open": "PASS",
+    "browser": "ADVERTISED_NOT_EXERCISED",
+    "active_chat_effective_config": "PARTIAL; full snapshot not available"
+  },
+  "document_checks": {
+    "toml_files_parsed": 7,
+    "roles_validated": 6,
+    "skills_validated": 7,
+    "local_links_checked": 65,
+    "markdown_tables_checked": 33,
+    "rubric_weights": [
+      20,
+      15,
+      15,
+      15,
+      10,
+      10,
+      5,
+      5,
+      5
+    ],
+    "retained_workspace_files": {
+      "AGENTS.md": true,
+      ".codex/config.toml": true,
+      "portfolio/idea-backlog.md": true,
+      "portfolio/decision-log.md": true,
+      "sessions/2026-11-20-01-broad-discovery.md": true,
+      "protocols/setup-validation.md": true,
+      ".agents/skills/adversarial-review/SKILL.md": true,
+      ".agents/skills/creative-ideation/SKILL.md": true,
+      ".agents/skills/feasibility-assessment/SKILL.md": true,
+      ".agents/skills/idea-evaluation/SKILL.md": true,
+      ".agents/skills/market-intelligence/SKILL.md": true,
+      ".agents/skills/problem-discovery/SKILL.md": true,
+      ".agents/skills/product-opportunity/SKILL.md": true,
+      ".codex/agents/creative-inventor.toml": true,
+      ".codex/agents/customer-researcher.toml": true,
+      ".codex/agents/market-analyst.toml": true,
+      ".codex/agents/product-strategist.toml": true,
+      ".codex/agents/red-team-critic.toml": true,
+      ".codex/agents/technical-advisor.toml": true
+    },
+    "global_baseline_files_checked": 1880,
+    "global_baseline_files_changed": 0,
+    "changed_existing_files": [
+      "README.md",
+      "protocols/debate-rules.md",
+      "protocols/ideation-session.md",
+      "protocols/scoring-rubric.md",
+      "sessions/README.md"
+    ],
+    "new_files_before_receipt": [
+      "protocols/portfolio-writes.md",
+      "sessions/2026-11-20-02-runtime-validation.md"
+    ],
+    "errors": [],
+    "result": "PASS"
+  },
+  "source_queries": [
+    {
+      "tool": "mcp__codex_apps__search_service_web_run",
+      "query": "site:developers.openai.com/codex subagents custom agents",
+      "domains": [
+        "developers.openai.com"
+      ],
+      "date": "2026-11-20",
+      "purpose": "bounded documentation/search capability check; not market research"
+    },
+    {
+      "tool": "mcp__codex_apps__search_service_web_run",
+      "open": "https://learn.chatgpt.com/docs/agent-configuration/subagents",
+      "date": "2026-11-20"
+    }
+  ],
+  "overall_result": "PARTIAL",
+  "smoke_test": "BLOCKED_MULTI_AGENT",
+  "limitations": [
+    "No actual child runtime identities, initial findings, critique-response or Red Team execution",
+    "No current active-chat full effective configuration snapshot",
+    "Native CLI tool schemas are metadata, not callable current-chat tools",
+    "Two-thread filesystem fixture does not establish two-agent compliance or atomic multi-file writes",
+    "Global hash comparison covers the 1880 pre-existing files captured; not unrelated runtime caches",
+    "No market research or product validation performed"
+  ]
+}

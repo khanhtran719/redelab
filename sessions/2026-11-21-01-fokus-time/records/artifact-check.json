@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-21T19:06:48.260242+07:00",
+  "checks": {
+    "nine_deliverables": "PASS",
+    "utf8_markdown_files": 40,
+    "local_markdown_links": "PASS",
+    "broken_links": [],
+    "six_independent_initial_records": "PASS",
+    "actual_peer_and_redteam_response_artifact_presence": "PASS",
+    "rubric_nine_weights_sum100": "PASS",
+    "assessed_weight_percent": 15,
+    "unique_backlog_ids": "PASS",
+    "founder_log_sha256_unchanged": "PASS",
+    "own_publication_lock_released": "PASS"
+  },
+  "scope": "Static document/link/ID/receipt consistency by CIO; artifact presence is not independent empirical validation. No product software exists in this task.",
+  "not_run": [
+    "customer interviews/experiments",
+    "device/API entitlement/store tests",
+    "payment/retention/CAC validation",
+    "jurisdictional legal assessment"
+  ],
+  "software_tests": "NOT APPLICABLE: research documents only"
+}

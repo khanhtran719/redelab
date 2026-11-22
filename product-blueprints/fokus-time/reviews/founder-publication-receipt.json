@@ -1,0 +1,12 @@
+{
+  "decision_id": "DEC-0001",
+  "state": "PUBLISHED",
+  "exact_selection_authorized": true,
+  "implementation_authorized": false,
+  "after_hashes": {
+    "portfolio/decision-log.md": "8154139eae2e9444315b6e02869bfb26c13db57192c5067b6379e56135954cf6",
+    "portfolio/idea-backlog.md": "d9bb3bb1af262cb7377e77667548562c58bddf4789841726e629b6aa24ffaa11",
+    "sessions/README.md": "12647fb9db4e41995c5f27441acc579bde404d182a7bf9d99a13b6020104ddcc"
+  },
+  "prior_decision_rows_unchanged": true
+}

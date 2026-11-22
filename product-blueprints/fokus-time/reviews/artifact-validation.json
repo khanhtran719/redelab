@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-11-22T10:58:52.191219+07:00",
+  "version": "0.2",
+  "classification": "READY FOR FOUNDER REVIEW per independent final and static audit",
+  "scope": "Documentation checks only; local link file targets, not remote URLs/fragments; no app tests.",
+  "checks": {
+    "normative_files_and_exact_frozen_hashes": "PASS 11/11",
+    "consistent_versions": "PASS",
+    "stable_definition_counts": {
+      "FR": 9,
+      "BR": 11,
+      "AC": 40,
+      "NFR": 9,
+      "DEC": 13,
+      "OPEN": 8
+    },
+    "duplicate_definitions": "NONE",
+    "undefined_canonical_refs": "NONE",
+    "must_requirements": 8,
+    "must_without_acceptance": [],
+    "interfaces": 5,
+    "journeys": 8,
+    "local_markdown_targets": "PASS",
+    "broken_links": [],
+    "founder_decision_preserved": "PASS",
+    "unauthorized_product_file_types": "NONE",
+    "own_lock_released": "PASS"
+  },
+  "normative_sha256": {
+    "01-product-vision.md": "44cb2e2f61f073f37d2ab8fc4212f6488a11ffa5ef7407de87a366228ce6b0c1",
+    "02-product-requirements.md": "22ce1d4b06c856273c629046f9cb9181763755226e93d37d9c7134e95d0da508",
+    "03-functional-specification.md": "2c66c5d7cf7bc51a4c420f8e091aafe9299b2c69a88e20cd0b4a79eef0be033f",
+    "04-user-journeys.md": "43370c3d49c8c99c5b5a35714572b8b47d89b9fc5aba0cddee04dec19aab9e2a",
+    "05-business-rules-and-data.md": "6e5c54781c8aa3188a539af8cdf4ba3b80d187bc542ff6b49540e3fde94c38c1",
+    "06-non-functional-requirements.md": "a899e5711222ae9536873026da20d2fe18f1d5664a2c92879620f0b9a81db16e",
+    "07-acceptance-criteria.md": "2ee6ff0e07a0bf8814f036cea9957a71e7c2abff95240ddf17cc90818229d45b",
+    "08-mvp-scope.md": "16efdb7cd244d9dca64921459be1716c4837315ab4d0031d053a519b9827df68",
+    "09-decisions-and-open-questions.md": "4f110208384499df09a80396bacd85648885d1daf7b6dc3cd919c8c647bd393a",
+    "10-dev-studio-handoff.md": "0dd163359c35130ffe55d78f1c8a634dd6d2c34ecc3e5d8068ac0172020231ea",
+    "README.md": "f64e970bd6934bd174acc4988082e6d854dabd59cefe6e120c0119ad1df0bf9e"
+  },
+  "product_scenarios": "AC-001 through AC-040 NOT_RUN",
+  "not_run": [
+    "app/device/offline/save/recovery/security/backup/restore/accessibility/performance tests",
+    "learning/usability/payment/retention/channel experiments",
+    "publication/legal clearance"
+  ],
+  "remaining_open": "OPEN001/002/008 approval choices; OPEN003/004 platform/performance qualification; OPEN005/006 value/economics; OPEN007 publication obligations"
+}

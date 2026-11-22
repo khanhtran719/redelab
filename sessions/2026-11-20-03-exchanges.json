@@ -1,0 +1,460 @@
+{
+  "session": "SES-20261120-03",
+  "exchanges": [
+    {
+      "id": "EX-P-01",
+      "name": "ChangeReceipt",
+      "fromRevision": "r1",
+      "toRevision": "r2",
+      "state": "RESPONDED",
+      "cycle": "COMPLETE",
+      "origin": {
+        "jobId": "58853777-9f36-42ec-9e78-ea2dd05a218f",
+        "threadId": "01a1f803-bdc0-7a71-aa5e-1e6ab31c9811",
+        "findingId": "R1-I-01",
+        "sentAt": "2026-11-20T08:12:37.103Z",
+        "resultAt": "2026-11-20T08:14:58.093Z",
+        "tool": "mcp__agent_hub__agent_spawn",
+        "payloadLocator": "2026-11-20-03-r1-results.json#prompt",
+        "responseLocator": "2026-11-20-03-r1-results.json#output",
+        "messageId": "NOT_RETURNED",
+        "deliveryState": "RESPONDED"
+      },
+      "critics": [
+        {
+          "jobId": "839684bc-ef88-4b3e-a8c7-2a31a884179d",
+          "threadId": "01a1f809-6144-75f1-9da8-21cd0f6db7e8",
+          "findingId": "R2-P-01",
+          "sentAt": "2026-11-20T08:18:46.690Z",
+          "resultAt": "2026-11-20T08:20:39.564Z",
+          "tool": "mcp__agent_hub__agent_spawn",
+          "payloadLocator": "2026-11-20-03-r2-results.json#prompt",
+          "responseLocator": "2026-11-20-03-r2-results.json#output",
+          "messageId": "NOT_RETURNED",
+          "deliveryState": "RESPONDED"
+        },
+        {
+          "jobId": "ccf1c4f3-c629-414d-9ca7-ce7a035e4643",
+          "threadId": "01a1f809-61d1-70f2-a119-fb56423ca4ec",
+          "findingId": "R2-T-01",
+          "sentAt": "2026-11-20T08:18:46.809Z",
+          "resultAt": "2026-11-20T08:21:03.321Z",
+          "tool": "mcp__agent_hub__agent_spawn",
+          "payloadLocator": "2026-11-20-03-r2-results.json#prompt",
+          "responseLocator": "2026-11-20-03-r2-results.json#output",
+          "messageId": "NOT_RETURNED",
+          "deliveryState": "RESPONDED"
+        }
+      ],
+      "proponentResponse": {
+        "jobId": "2efbea3d-451c-41d1-b982-3a980c5b2342",
+        "threadId": "01a1f80e-6d24-78c1-876c-091705eea691",
+        "findingId": "R3-I-01",
+        "sentAt": "2026-11-20T08:24:17.420Z",
+        "resultAt": "2026-11-20T08:25:32.030Z",
+        "tool": "mcp__agent_hub__agent_spawn",
+        "payloadLocator": "2026-11-20-03-r3-retry-result.json#prompt",
+        "responseLocator": "2026-11-20-03-r3-retry-result.json#output",
+        "messageId": "NOT_RETURNED",
+        "deliveryState": "RESPONDED"
+      },
+      "relay": "CIO transmitted exact excerpts or explicitly attributed faithful summaries; replacement worker identity disclosed.",
+      "ideaId": "IDEA-0009"
+    },
+    {
+      "id": "EX-R-01",
+      "name": "ChangeReceipt",
+      "fromRevision": "r2",
+      "toRevision": "r3",
+      "state": "RESPONDED",
+      "cycle": "COMPLETE",
+      "origin": {
+        "jobId": "2efbea3d-451c-41d1-b982-3a980c5b2342",
+        "threadId": "01a1f80e-6d24-78c1-876c-091705eea691",
+        "findingId": "R3-I-01",
+        "sentAt": "2026-11-20T08:24:17.420Z",
+        "resultAt": "2026-11-20T08:25:32.030Z",
+        "tool": "mcp__agent_hub__agent_spawn",
+        "payloadLocator": "2026-11-20-03-r3-retry-result.json#prompt",
+        "responseLocator": "2026-11-20-03-r3-retry-result.json#output",
+        "messageId": "NOT_RETURNED",
+        "deliveryState": "RESPONDED"
+      },
+      "critics": [
+        {
+          "jobId": "4c211ab5-572d-4b74-b21c-a8eb10e9b442",
+          "threadId": "01a1f810-7dba-78d0-a183-9887e5eb51d5",
+          "findingId": "R4-R-01",
+          "sentAt": "2026-11-20T08:26:32.742Z",
+          "resultAt": "2026-11-20T08:28:21.584Z",
+          "tool": "mcp__agent_hub__agent_spawn",
+          "payloadLocator": "2026-11-20-03-red-result.json#prompt",
+          "responseLocator": "2026-11-20-03-red-result.json#output",
+          "messageId": "NOT_RETURNED",
+          "deliveryState": "RESPONDED"
+        }
+      ],
+      "proponentResponse": {
+        "jobId": "9f68563d-0fbe-49b9-9f2b-57c75dd3bc91",
+        "threadId": "01a1f812-ad34-7962-b76b-5280eefc67d6",
+        "findingId": "R5-I-01",
+        "sentAt": "2026-11-20T08:28:55.967Z",
+        "resultAt": "2026-11-20T08:30:26.558Z",
+        "tool": "mcp__agent_hub__agent_spawn",
+        "payloadLocator": "2026-11-20-03-r5-result.json#prompt",
+        "responseLocator": "2026-11-20-03-r5-result.json#output",
+        "messageId": "NOT_RETURNED",
+        "deliveryState": "RESPONDED"
+      },
+      "relay": "CIO relayed named R3 findings to independent Red Team and R4 objections to a genuine replacement proponent.",
+      "ideaId": "IDEA-0009"
+    },
+    {
+      "id": "EX-P-03",
+      "name": "ClassRelay",
+      "fromRevision": "r1",
+      "toRevision": "r2",
+      "state": "RESPONDED",
+      "cycle": "COMPLETE",
+      "origin": {
+        "jobId": "58853777-9f36-42ec-9e78-ea2dd05a218f",
+        "threadId": "01a1f803-bdc0-7a71-aa5e-1e6ab31c9811",
+        "findingId": "R1-I-03",
+        "sentAt": "2026-11-20T08:12:37.103Z",
+        "resultAt": "2026-11-20T08:14:58.093Z",
+        "tool": "mcp__agent_hub__agent_spawn",
+        "payloadLocator": "2026-11-20-03-r1-results.json#prompt",
+        "responseLocator": "2026-11-20-03-r1-results.json#output",
+        "messageId": "NOT_RETURNED",
+        "deliveryState": "RESPONDED"
+      },
+      "critics": [
+        {
+          "jobId": "839684bc-ef88-4b3e-a8c7-2a31a884179d",
+          "threadId": "01a1f809-6144-75f1-9da8-21cd0f6db7e8",
+          "findingId": "R2-P-03",
+          "sentAt": "2026-11-20T08:18:46.690Z",
+          "resultAt": "2026-11-20T08:20:39.564Z",
+          "tool": "mcp__agent_hub__agent_spawn",
+          "payloadLocator": "2026-11-20-03-r2-results.json#prompt",
+          "responseLocator": "2026-11-20-03-r2-results.json#output",
+          "messageId": "NOT_RETURNED",
+          "deliveryState": "RESPONDED"
+        },
+        {
+          "jobId": "ccf1c4f3-c629-414d-9ca7-ce7a035e4643",
+          "threadId": "01a1f809-61d1-70f2-a119-fb56423ca4ec",
+          "findingId": "R2-T-03",
+          "sentAt": "2026-11-20T08:18:46.809Z",
+          "resultAt": "2026-11-20T08:21:03.321Z",
+          "tool": "mcp__agent_hub__agent_spawn",
+          "payloadLocator": "2026-11-20-03-r2-results.json#prompt",
+          "responseLocator": "2026-11-20-03-r2-results.json#output",
+          "messageId": "NOT_RETURNED",
+          "deliveryState": "RESPONDED"
+        }
+      ],
+      "proponentResponse": {
+        "jobId": "2efbea3d-451c-41d1-b982-3a980c5b2342",
+        "threadId": "01a1f80e-6d24-78c1-876c-091705eea691",
+        "findingId": "R3-I-03",
+        "sentAt": "2026-11-20T08:24:17.420Z",
+        "resultAt": "2026-11-20T08:25:32.030Z",
+        "tool": "mcp__agent_hub__agent_spawn",
+        "payloadLocator": "2026-11-20-03-r3-retry-result.json#prompt",
+        "responseLocator": "2026-11-20-03-r3-retry-result.json#output",
+        "messageId": "NOT_RETURNED",
+        "deliveryState": "RESPONDED"
+      },
+      "relay": "CIO transmitted exact excerpts or explicitly attributed faithful summaries; replacement worker identity disclosed.",
+      "ideaId": "IDEA-0010"
+    },
+    {
+      "id": "EX-R-03",
+      "name": "ClassRelay",
+      "fromRevision": "r2",
+      "toRevision": "r3",
+      "state": "RESPONDED",
+      "cycle": "COMPLETE",
+      "origin": {
+        "jobId": "2efbea3d-451c-41d1-b982-3a980c5b2342",
+        "threadId": "01a1f80e-6d24-78c1-876c-091705eea691",
+        "findingId": "R3-I-03",
+        "sentAt": "2026-11-20T08:24:17.420Z",
+        "resultAt": "2026-11-20T08:25:32.030Z",
+        "tool": "mcp__agent_hub__agent_spawn",
+        "payloadLocator": "2026-11-20-03-r3-retry-result.json#prompt",
+        "responseLocator": "2026-11-20-03-r3-retry-result.json#output",
+        "messageId": "NOT_RETURNED",
+        "deliveryState": "RESPONDED"
+      },
+      "critics": [
+        {
+          "jobId": "4c211ab5-572d-4b74-b21c-a8eb10e9b442",
+          "threadId": "01a1f810-7dba-78d0-a183-9887e5eb51d5",
+          "findingId": "R4-R-03",
+          "sentAt": "2026-11-20T08:26:32.742Z",
+          "resultAt": "2026-11-20T08:28:21.584Z",
+          "tool": "mcp__agent_hub__agent_spawn",
+          "payloadLocator": "2026-11-20-03-red-result.json#prompt",
+          "responseLocator": "2026-11-20-03-red-result.json#output",
+          "messageId": "NOT_RETURNED",
+          "deliveryState": "RESPONDED"
+        }
+      ],
+      "proponentResponse": {
+        "jobId": "9f68563d-0fbe-49b9-9f2b-57c75dd3bc91",
+        "threadId": "01a1f812-ad34-7962-b76b-5280eefc67d6",
+        "findingId": "R5-I-03",
+        "sentAt": "2026-11-20T08:28:55.967Z",
+        "resultAt": "2026-11-20T08:30:26.558Z",
+        "tool": "mcp__agent_hub__agent_spawn",
+        "payloadLocator": "2026-11-20-03-r5-result.json#prompt",
+        "responseLocator": "2026-11-20-03-r5-result.json#output",
+        "messageId": "NOT_RETURNED",
+        "deliveryState": "RESPONDED"
+      },
+      "relay": "CIO relayed named R3 findings to independent Red Team and R4 objections to a genuine replacement proponent.",
+      "ideaId": "IDEA-0010"
+    },
+    {
+      "id": "EX-P-04",
+      "name": "PartRoute",
+      "fromRevision": "r1",
+      "toRevision": "r2",
+      "state": "RESPONDED",
+      "cycle": "COMPLETE",
+      "origin": {
+        "jobId": "58853777-9f36-42ec-9e78-ea2dd05a218f",
+        "threadId": "01a1f803-bdc0-7a71-aa5e-1e6ab31c9811",
+        "findingId": "R1-I-04",
+        "sentAt": "2026-11-20T08:12:37.103Z",
+        "resultAt": "2026-11-20T08:14:58.093Z",
+        "tool": "mcp__agent_hub__agent_spawn",
+        "payloadLocator": "2026-11-20-03-r1-results.json#prompt",
+        "responseLocator": "2026-11-20-03-r1-results.json#output",
+        "messageId": "NOT_RETURNED",
+        "deliveryState": "RESPONDED"
+      },
+      "critics": [
+        {
+          "jobId": "839684bc-ef88-4b3e-a8c7-2a31a884179d",
+          "threadId": "01a1f809-6144-75f1-9da8-21cd0f6db7e8",
+          "findingId": "R2-P-04",
+          "sentAt": "2026-11-20T08:18:46.690Z",
+          "resultAt": "2026-11-20T08:20:39.564Z",
+          "tool": "mcp__agent_hub__agent_spawn",
+          "payloadLocator": "2026-11-20-03-r2-results.json#prompt",
+          "responseLocator": "2026-11-20-03-r2-results.json#output",
+          "messageId": "NOT_RETURNED",
+          "deliveryState": "RESPONDED"
+        },
+        {
+          "jobId": "ccf1c4f3-c629-414d-9ca7-ce7a035e4643",
+          "threadId": "01a1f809-61d1-70f2-a119-fb56423ca4ec",
+          "findingId": "R2-T-04",
+          "sentAt": "2026-11-20T08:18:46.809Z",
+          "resultAt": "2026-11-20T08:21:03.321Z",
+          "tool": "mcp__agent_hub__agent_spawn",
+          "payloadLocator": "2026-11-20-03-r2-results.json#prompt",
+          "responseLocator": "2026-11-20-03-r2-results.json#output",
+          "messageId": "NOT_RETURNED",
+          "deliveryState": "RESPONDED"
+        }
+      ],
+      "proponentResponse": {
+        "jobId": "2efbea3d-451c-41d1-b982-3a980c5b2342",
+        "threadId": "01a1f80e-6d24-78c1-876c-091705eea691",
+        "findingId": "R3-I-04",
+        "sentAt": "2026-11-20T08:24:17.420Z",
+        "resultAt": "2026-11-20T08:25:32.030Z",
+        "tool": "mcp__agent_hub__agent_spawn",
+        "payloadLocator": "2026-11-20-03-r3-retry-result.json#prompt",
+        "responseLocator": "2026-11-20-03-r3-retry-result.json#output",
+        "messageId": "NOT_RETURNED",
+        "deliveryState": "RESPONDED"
+      },
+      "relay": "CIO transmitted exact excerpts or explicitly attributed faithful summaries; replacement worker identity disclosed.",
+      "ideaId": "IDEA-0011"
+    },
+    {
+      "id": "EX-R-04",
+      "name": "PartRoute",
+      "fromRevision": "r2",
+      "toRevision": "r3",
+      "state": "RESPONDED",
+      "cycle": "COMPLETE",
+      "origin": {
+        "jobId": "2efbea3d-451c-41d1-b982-3a980c5b2342",
+        "threadId": "01a1f80e-6d24-78c1-876c-091705eea691",
+        "findingId": "R3-I-04",
+        "sentAt": "2026-11-20T08:24:17.420Z",
+        "resultAt": "2026-11-20T08:25:32.030Z",
+        "tool": "mcp__agent_hub__agent_spawn",
+        "payloadLocator": "2026-11-20-03-r3-retry-result.json#prompt",
+        "responseLocator": "2026-11-20-03-r3-retry-result.json#output",
+        "messageId": "NOT_RETURNED",
+        "deliveryState": "RESPONDED"
+      },
+      "critics": [
+        {
+          "jobId": "4c211ab5-572d-4b74-b21c-a8eb10e9b442",
+          "threadId": "01a1f810-7dba-78d0-a183-9887e5eb51d5",
+          "findingId": "R4-R-04",
+          "sentAt": "2026-11-20T08:26:32.742Z",
+          "resultAt": "2026-11-20T08:28:21.584Z",
+          "tool": "mcp__agent_hub__agent_spawn",
+          "payloadLocator": "2026-11-20-03-red-result.json#prompt",
+          "responseLocator": "2026-11-20-03-red-result.json#output",
+          "messageId": "NOT_RETURNED",
+          "deliveryState": "RESPONDED"
+        }
+      ],
+      "proponentResponse": {
+        "jobId": "9f68563d-0fbe-49b9-9f2b-57c75dd3bc91",
+        "threadId": "01a1f812-ad34-7962-b76b-5280eefc67d6",
+        "findingId": "R5-I-04",
+        "sentAt": "2026-11-20T08:28:55.967Z",
+        "resultAt": "2026-11-20T08:30:26.558Z",
+        "tool": "mcp__agent_hub__agent_spawn",
+        "payloadLocator": "2026-11-20-03-r5-result.json#prompt",
+        "responseLocator": "2026-11-20-03-r5-result.json#output",
+        "messageId": "NOT_RETURNED",
+        "deliveryState": "RESPONDED"
+      },
+      "relay": "CIO relayed named R3 findings to independent Red Team and R4 objections to a genuine replacement proponent.",
+      "ideaId": "IDEA-0011"
+    },
+    {
+      "id": "EX-P-05",
+      "name": "GuideExpiry",
+      "fromRevision": "r1",
+      "toRevision": "r2",
+      "state": "RESPONDED",
+      "cycle": "COMPLETE",
+      "origin": {
+        "jobId": "58853777-9f36-42ec-9e78-ea2dd05a218f",
+        "threadId": "01a1f803-bdc0-7a71-aa5e-1e6ab31c9811",
+        "findingId": "R1-I-05",
+        "sentAt": "2026-11-20T08:12:37.103Z",
+        "resultAt": "2026-11-20T08:14:58.093Z",
+        "tool": "mcp__agent_hub__agent_spawn",
+        "payloadLocator": "2026-11-20-03-r1-results.json#prompt",
+        "responseLocator": "2026-11-20-03-r1-results.json#output",
+        "messageId": "NOT_RETURNED",
+        "deliveryState": "RESPONDED"
+      },
+      "critics": [
+        {
+          "jobId": "839684bc-ef88-4b3e-a8c7-2a31a884179d",
+          "threadId": "01a1f809-6144-75f1-9da8-21cd0f6db7e8",
+          "findingId": "R2-P-05",
+          "sentAt": "2026-11-20T08:18:46.690Z",
+          "resultAt": "2026-11-20T08:20:39.564Z",
+          "tool": "mcp__agent_hub__agent_spawn",
+          "payloadLocator": "2026-11-20-03-r2-results.json#prompt",
+          "responseLocator": "2026-11-20-03-r2-results.json#output",
+          "messageId": "NOT_RETURNED",
+          "deliveryState": "RESPONDED"
+        },
+        {
+          "jobId": "ccf1c4f3-c629-414d-9ca7-ce7a035e4643",
+          "threadId": "01a1f809-61d1-70f2-a119-fb56423ca4ec",
+          "findingId": "R2-T-05",
+          "sentAt": "2026-11-20T08:18:46.809Z",
+          "resultAt": "2026-11-20T08:21:03.321Z",
+          "tool": "mcp__agent_hub__agent_spawn",
+          "payloadLocator": "2026-11-20-03-r2-results.json#prompt",
+          "responseLocator": "2026-11-20-03-r2-results.json#output",
+          "messageId": "NOT_RETURNED",
+          "deliveryState": "RESPONDED"
+        }
+      ],
+      "proponentResponse": {
+        "jobId": "2efbea3d-451c-41d1-b982-3a980c5b2342",
+        "threadId": "01a1f80e-6d24-78c1-876c-091705eea691",
+        "findingId": "R3-I-05",
+        "sentAt": "2026-11-20T08:24:17.420Z",
+        "resultAt": "2026-11-20T08:25:32.030Z",
+        "tool": "mcp__agent_hub__agent_spawn",
+        "payloadLocator": "2026-11-20-03-r3-retry-result.json#prompt",
+        "responseLocator": "2026-11-20-03-r3-retry-result.json#output",
+        "messageId": "NOT_RETURNED",
+        "deliveryState": "RESPONDED"
+      },
+      "relay": "CIO transmitted exact excerpts or explicitly attributed faithful summaries; replacement worker identity disclosed.",
+      "ideaId": "IDEA-0012"
+    },
+    {
+      "id": "EX-R-05",
+      "name": "GuideExpiry",
+      "fromRevision": "r2",
+      "toRevision": "r3",
+      "state": "RESPONDED",
+      "cycle": "COMPLETE",
+      "origin": {
+        "jobId": "2efbea3d-451c-41d1-b982-3a980c5b2342",
+        "threadId": "01a1f80e-6d24-78c1-876c-091705eea691",
+        "findingId": "R3-I-05",
+        "sentAt": "2026-11-20T08:24:17.420Z",
+        "resultAt": "2026-11-20T08:25:32.030Z",
+        "tool": "mcp__agent_hub__agent_spawn",
+        "payloadLocator": "2026-11-20-03-r3-retry-result.json#prompt",
+        "responseLocator": "2026-11-20-03-r3-retry-result.json#output",
+        "messageId": "NOT_RETURNED",
+        "deliveryState": "RESPONDED"
+      },
+      "critics": [
+        {
+          "jobId": "4c211ab5-572d-4b74-b21c-a8eb10e9b442",
+          "threadId": "01a1f810-7dba-78d0-a183-9887e5eb51d5",
+          "findingId": "R4-R-05",
+          "sentAt": "2026-11-20T08:26:32.742Z",
+          "resultAt": "2026-11-20T08:28:21.584Z",
+          "tool": "mcp__agent_hub__agent_spawn",
+          "payloadLocator": "2026-11-20-03-red-result.json#prompt",
+          "responseLocator": "2026-11-20-03-red-result.json#output",
+          "messageId": "NOT_RETURNED",
+          "deliveryState": "RESPONDED"
+        }
+      ],
+      "proponentResponse": {
+        "jobId": "9f68563d-0fbe-49b9-9f2b-57c75dd3bc91",
+        "threadId": "01a1f812-ad34-7962-b76b-5280eefc67d6",
+        "findingId": "R5-I-05",
+        "sentAt": "2026-11-20T08:28:55.967Z",
+        "resultAt": "2026-11-20T08:30:26.558Z",
+        "tool": "mcp__agent_hub__agent_spawn",
+        "payloadLocator": "2026-11-20-03-r5-result.json#prompt",
+        "responseLocator": "2026-11-20-03-r5-result.json#output",
+        "messageId": "NOT_RETURNED",
+        "deliveryState": "RESPONDED"
+      },
+      "relay": "CIO relayed named R3 findings to independent Red Team and R4 objections to a genuine replacement proponent.",
+      "ideaId": "IDEA-0012"
+    }
+  ],
+  "statusDefinition": {
+    "PREPARED": "packet exists only",
+    "SENT": "tool returned job, no substantive reply yet",
+    "RESPONDED": "actual output explicitly addressed named finding",
+    "FAILED_OR_UNKNOWN": "no usable response"
+  },
+  "failures": [
+    {
+      "jobId": "37ca4b41-efd4-47ba-a458-25626883cd6d",
+      "state": "FAILED_OR_UNKNOWN",
+      "error": "exceeded retry limit, last status: 429 Too Many Requests"
+    },
+    {
+      "jobId": "132261d7-c1db-4555-9718-98250acf79d2",
+      "state": "FAILED_OR_UNKNOWN",
+      "error": "exceeded retry limit, last status: 429 Too Many Requests"
+    },
+    {
+      "jobId": "830298b7-76f0-42e3-ab93-3c4120534140",
+      "state": "FAILED_OR_UNKNOWN",
+      "error": "exceeded retry limit, last status: 429 Too Many Requests"
+    }
+  ]
+}

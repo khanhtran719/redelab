@@ -1,0 +1,7 @@
+# Bounded supplementary research scope
+
+Declared before execution at approximately 17:20 ICT, 2026-11-20. Initial market allocation reached 11 inspected pages, with Study Bunny and price/platform gaps; both worker search streams reported irrelevant query results. CIO's search-service connector returned relevant results; legacy web tool failed with route_not_found (two requested queries not executed).
+
+Within the Founder's existing comprehensive discovery authorization, supplement the first pass with up to 8 further search queries, 16 further inspected external sources and 15 research minutes; cumulative ceilings 20 executed queries, 36 inspected sources, 45 elapsed research minutes. Do not reset usage. Source allocation: CIO up to 12; technical follow-up 2; Red Team 2 extra (in addition to its initial 2). Focus: unverified named competitor availability/pricing, native/free substitutes and platform dependencies, direct user counterevidence. Zero interviews or experiments. Stop at cap or when remaining uncertainty requires customers/devices rather than more desk research.
+
+Initial parent reserve used two queries: `Focusmate pricing free virtual coworking official`; `Goblin Tools Magic ToDo mobile app price official`. Search results are leads until opened, not verified feature/pricing claims. Worker runtime metadata reports gpt-6-astra / ultra / read-only, not a configured custom-role override.

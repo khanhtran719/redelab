@@ -1,0 +1,23 @@
+{
+  "session_id": "SES-20261121-01",
+  "state": "PUBLISHED",
+  "idea_ids": {
+    "{{F1_ID}}": "IDEA-0013",
+    "{{F3_ID}}": "IDEA-0014"
+  },
+  "before_hashes": {
+    "portfolio/idea-backlog.md": "296139ab235e7ba66d406113d212b58c7fe06f0b1faf72c22a1fb9042fd4a565",
+    "portfolio/decision-log.md": "2dbfbbd350e9c52f109b4e66dae754b220944a97f56aa0a6b17131c77d37513b",
+    "sessions/README.md": "5925c26906f4af4e07c472f6d8c10c71d68053087239975097f84d5b5eaa88a9"
+  },
+  "after_hashes": {
+    "portfolio/idea-backlog.md": "7c736d514f8e9505c955635c88fc9c74d411bac513580d49c009b7abecb2d951",
+    "portfolio/decision-log.md": "2dbfbbd350e9c52f109b4e66dae754b220944a97f56aa0a6b17131c77d37513b",
+    "sessions/README.md": "f719a775888efa964f9f4418bd9095e8404702e41da5420d7f7de547f230c9d2"
+  },
+  "founder_log_unchanged": true,
+  "existing_rows_preserved": true,
+  "unique_ids": true,
+  "owner": "/root",
+  "lock_release": "own owner.md unlinked then own lock rmdir after checks"
+}
